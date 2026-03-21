@@ -1,6 +1,6 @@
 ---
 file_id: 51-Troubleshooting
-description: Common issues and solutions — diagnostics, process failures, and emergency recovery.
+description: Common issues and solutions ï¿½ diagnostics, process failures, and emergency recovery.
 status: active
 authoritative: true
 ---
@@ -8,6 +8,20 @@ authoritative: true
 # ðŸ› Troubleshooting
 
 > Common issues and their solutions for the OpenClaw instance.
+
+---
+## UI & Projects
+
+### Unclickable Buttons (Z-Index / Pointer Events)
+
+**Symptoms:** Buttons in a project (e.g., Road Trip) are visible but don't respond to clicks on Desktop, though they might work on Mobile.
+
+**Cause:** A parent container or sibling element with a higher `z-index` (or same z-index but later in DOM) is covering the buttons. Even if the container has no background, it may still capture pointer events if not explicitly set to `pointer-events: none`.
+
+**Fix:** 
+1. Check for invisible containers using Browser DevTools (Inspect).
+2. Apply `pointer-events-none` to the blocking container.
+3. Ensure interactive children have `pointer-events-auto`.
 
 ---
 
