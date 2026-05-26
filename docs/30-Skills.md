@@ -3,11 +3,36 @@ file_id: 30-Skills
 description: How OpenClaw skills work, file structure, current skills, creation guide, and portable skills.
 status: active
 authoritative: true
+updated: 2026-05-26
 ---
 
 # 🧰 Skills System
 
-> How OpenClaw skills work, their file structure, and how to create new ones.
+> How skills work, their file structure, and how to create new ones.
+
+## ⚠ Skill location update (2026-05-26)
+
+OpenClaw now runs on **Hermes Agent**, whose canonical skill directory is
+`~/.hermes/skills/<category>/<skill-name>/`. The legacy `~/.openclaw/skills/`
+path described in the rest of this doc is **historic** — keep it for context
+on how the system evolved, but new skills go under `~/.hermes/skills/`.
+
+Manage with the `skill_manage` tool inside Hermes sessions, or:
+
+```bash
+hermes skills list
+hermes skills install <plugin>
+```
+
+### Active Hermes skills owned by this workspace
+
+| Skill | Category | Purpose |
+|:---|:---|:---|
+| `jc-development-blueprint` | software-development | Stack scaffold for Carlos's Next 16 / Tailwind v4 / Firebase apps. Includes `scaffold.sh`, `AuthGuard.tsx`, `firebase.ts`, `layout.tsx`, `firestore-patterns.md`. Replaces the ~1.2KB blueprint block that used to live in memory. |
+| `git-sync-openclaw` | devops | One-shot end-of-session sync: stage/commit/push both `JCJarvisMain` (workspace) and `OpenClawBrain` (_brain). Wraps the AGENTS.md checklist. Run: `bash ~/.hermes/skills/devops/git-sync-openclaw/scripts/sync.sh "<summary>"`. |
+
+(The full skill library — hundreds of installed Hermes skills — is listed by
+`hermes skills list`. This table only tracks ones authored for this workspace.)
 
 ---
 

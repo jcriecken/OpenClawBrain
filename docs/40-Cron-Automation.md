@@ -3,89 +3,76 @@ file_id: 40-Cron-Automation
 description: Scheduled jobs, delivery channels, output files, and monitoring automation.
 status: active
 authoritative: true
-updated: 2026-03-21
+updated: 2026-05-26
 ---
 
 # ⏰ Cron & Automation
 
-> Scheduled jobs and monitoring automation. Overhauled 2026-03-21 — switched from hourly to daily.
+> Scheduled jobs and monitoring automation. Rebuilt 2026-05-26 around the
+> token-efficient watchdog pattern (silent on green, message on red).
 
----
+## Design principles (carry-over from cleanup pass)
+
+1. **`no_agent=true` for binary checks** — disk space, service up/down. Zero LLM tokens per tick.
+2. **Restrict `enabled_toolsets`** on LLM-driven jobs to the minimum.
+3. **Pre-process in the `script:` field** before the LLM sees data. Keep stdout small.
+4. **Daily, not hourly.** Almost nothing is real-time.
+5. **One job per concern.** Easier to pause/fix one without re-running the others.
 
 ## Current Jobs
 
-### Job 1: Daily Morning Status Check
+| Name | Schedule | Mode | Script | Toolsets | Cost/tick |
+|:---|:---|:---|:---|:---|:---|
+| `homelab-disk-watchdog` | `0 8 * * *` | no_agent | `disk_watchdog.sh` | — | **0 tokens** (silent on green) |
+| `homelab-arr-health` | `5 8 * * *` | no_agent | `arr_health.sh` | — | **0 tokens** (silent on green) |
+| `lean-stream-weekly` | `0 9 * * 0` | LLM (small) | `lean_stream_scan.sh` | terminal, file | ~$0.01 |
+| `morning-briefing` | `30 7 * * *` | LLM (small) | `briefing_data.sh` | terminal | ~$0.005 |
 
-| Property | Value |
-|:---|:---|
-| **ID** | `8253975e-da70-4a24-ac21-3e415eb023d5` |
-| **Schedule** | Daily at 08:30 (Europe/Berlin) |
-| **Expression** | `30 8 * * *` |
-| **Model** | `google/gemini-flash-latest` |
-| **Delivery** | `announce` via Telegram |
-| **Status** | ✅ Enabled |
+Estimated total monthly cost: **~$0.20** at Opus pricing.
 
-**What it does:**
-1. Pings homelab server (`192.168.0.140`) on key ports:
-   - Plex (32400), Home Assistant (8123), FileFlows (5000), Dev Server (3000)
-2. Compares to yesterday's status
-3. Only messages Carlos if something changed
+## Scripts
 
-### Job 2: Daily Repo Sync
+All scripts live under `~/.hermes/scripts/` and source secrets from
+`~/.openclaw/workspace/credentials.env` (only well-formed `KEY=VALUE` lines —
+the credentials file has narrative noise that breaks naive `source`).
 
-| Property | Value |
-|:---|:---|
-| **ID** | `cecfa0ac-5643-4903-8084-d7d5a1f18728` |
-| **Schedule** | Daily at 08:30 (Europe/Berlin) |
-| **Expression** | `30 8 * * *` |
-| **Model** | `google/gemini-flash-latest` |
-| **Delivery** | `silent` |
-| **Status** | ✅ Enabled |
+- `disk_watchdog.sh` — disk %>=85 on local mounts + reachability of
+  `192.168.0.140` (Unraid) and `192.168.0.35` (HA). Silent unless red.
+- `arr_health.sh` — Plex `/identity`, Sonarr/Radarr `/system/status`, Sonarr
+  queue stuck items, Prowlarr disabled indexers. Silent unless red.
+- `lean_stream_scan.sh` — Radarr movies >50GB, weekly diff vs
+  `~/.hermes/state/lean-stream-last.json`. Output is the LLM prompt context.
+- `briefing_data.sh` — wttr.in Bonn + Sonarr last-12h grabs. Output is the
+  LLM prompt context.
 
-**What it does:**
-1. Runs `sync-repos.sh` from the jc-development skill
-2. Pulls latest changes for development repos
-
----
-
-## Removed Jobs (2026-03-21 Overhaul)
-
-| Job | Reason |
-|:---|:---|
-| Hourly Carlos Status Update | Replaced by daily check — was burning tokens 24x/day |
-| WebDev Persona Hourly Brainstorm | Spam — generated ideas nobody read |
-| Daily-Model-Reset | Obsolete — model config now Flash-only, no resets needed |
-| The Architect - Delayed Suggestion | Stale one-shot, had errors |
-
----
-
-## Output Files
-
-| File | Purpose |
-|:---|:---|
-| `CRON_UPDATES.md` | Append-only log of daily status results |
-| `HEARTBEAT.md` | Task checklist that cron jobs reference |
-
----
-
-## Maintenance
-
-### Truncating CRON_UPDATES.md
+## Adding/pausing
 
 ```bash
-tail -50 ~/.openclaw/workspace/CRON_UPDATES.md > /tmp/cron_trimmed.md
-mv /tmp/cron_trimmed.md ~/.openclaw/workspace/CRON_UPDATES.md
+# List
+hermes cron list
+# or via the cronjob tool inside a session: action='list'
+
+# Pause a noisy job
+cronjob action='pause' job_id='<id>'
+
+# Remove
+cronjob action='remove' job_id='<id>'
 ```
 
-### Cleaning Old Run Logs
+## Pitfalls
 
-```bash
-find ~/.openclaw/cron/runs/ -name "*.jsonl" -mtime +30 -delete
-```
+- **`source credentials.env` directly will break** — it has a `JSON = {...}` line.
+  All current scripts use the grep-and-export pattern. New scripts should too.
+- **API keys missing** — Sonarr/Radarr/Prowlarr API keys are NOT in credentials.env
+  yet. Add `SONARR_API_KEY`, `RADARR_API_KEY`, `PROWLARR_API_KEY` to enable the
+  full health checks and the lean-stream weekly report. Scripts degrade
+  gracefully without them.
+- **`no_agent=true` jobs fire alerts only on non-empty stdout.** If you change a
+  watchdog and accidentally print on green, you'll spam every tick. Smoke-test
+  with `bash script.sh` and confirm empty output before saving.
 
-### Disabling a Job
+## Retired jobs (history)
 
-Edit `~/.openclaw/cron/jobs.json` and set `"enabled": false`.
-
-> [!WARNING]
-> Back up `jobs.json` before editing. OpenClaw validates this file at startup and may reset invalid entries.
+- 2026-03-21 → 2026-04-19: "Daily Morning Status Check" and "Daily Repo Sync"
+  on Flash. Replaced by the watchdog-pattern set above.
+- Pre-2026-03-21: 5 hourly jobs (overhauled into 2 daily for cost).
