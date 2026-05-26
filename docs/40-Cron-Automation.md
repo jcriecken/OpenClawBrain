@@ -73,6 +73,11 @@ cronjob action='remove' job_id='<id>'
 
 ## Retired jobs (history)
 
+- 2026-05-26 → present: 4 jobs wired (see table above). Live smoke-test
+  uncovered three pitfalls now codified in the scripts:
+  1. `source credentials.env` breaks on the JSON line — use a `grep | export` loop.
+  2. Inline Python in `curl | python3 -c '...'` mustn't use f-string escaped quotes — the shell mangles them. Use `.format()` or extract variables first.
+  3. For Radarr `/api/v3/movie` (~1MB JSON) and other large payloads, pass via a temp file. ARG_MAX kills env-var transport; `python3 - <<PY` consumes the here-doc as stdin so piping doesn't work either.
 - 2026-03-21 → 2026-04-19: "Daily Morning Status Check" and "Daily Repo Sync"
   on Flash. Replaced by the watchdog-pattern set above.
 - Pre-2026-03-21: 5 hourly jobs (overhauled into 2 daily for cost).
