@@ -255,3 +255,18 @@ Ranges:
   - `ccp "<task>"` → one-shot print mode; honours `CC_MAX_TURNS` (default 10)
 - **Skill:** `autonomous-ai-agents/claude-code` (rule #0 documents the Opus pinning).
 - Note: Claude Code internally uses Haiku 4.5 for cheap background ops (file scans, summaries). Main reasoning still runs on Opus — this is expected.
+
+### 2026-05-26 — Delegation cost optimization
+- **Parent (Jarvis):** `anthropic/claude-opus-4.7` via OpenRouter (~$15/$75 per M tokens).
+- **Subagents (`delegate_task`):** pinned to `anthropic/claude-sonnet-4.6` via OpenRouter (~$3/$15 per M tokens).
+- Config: `delegation.model`, `delegation.provider`, `delegation.base_url` in `~/.hermes/config.yaml`.
+- **~5× cost reduction** on delegated workstreams (research, parallel tasks, mechanical edits).
+- **Gotcha:** delegation config is snapshotted into CLI_CONFIG at session start. Changes via `hermes config set` persist to disk but require a gateway restart (`hermes gateway restart`) to take effect for running sessions.
+
+### 2026-05-26 — Router architecture (Sonnet + Opus escalation)
+Carlos's preferred routing pattern (rev'd same day as the prior delegation change):
+- **Jarvis (default model):** `anthropic/claude-sonnet-4.6` via OpenRouter — handles all routine conversation, coordination, tool calls.
+- **Delegation subagents:** `anthropic/claude-sonnet-4.6` (same as parent).
+- **Escalation path:** Opus 4.7 is reached **only** via the `claude` CLI (already pinned in `~/.claude/settings.json`). Jarvis shells out via `terminal("claude -p '<task>' --max-turns N", workdir=...)` for genuinely complex work.
+- **Rules in skill:** `opus-escalation` — defines when to escalate (multi-file refactor, architecture, deep debugging, security review, Sonnet already failed) and when NOT to (single-file edits, summaries, web research, config changes).
+- **Cost shape:** ~5× reduction on day-to-day work; Opus reserved for the ~5% of tasks that genuinely benefit from it.
