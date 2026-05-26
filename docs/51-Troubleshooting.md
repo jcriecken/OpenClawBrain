@@ -5,7 +5,49 @@ status: active
 authoritative: true
 ---
 
-# 🐛 Troubleshooting
+## Troubleshooting
+
+### Gateway: stale Python module import errors after a Hermes update
+
+**Symptom (any platform — Discord, Telegram, etc.):**
+```
+ImportError: cannot import name 'X' from 'utils'
+(/home/skilla/.hermes/hermes-agent/utils.py)
+```
+
+**Cause.** The gateway process (`hermes gateway run`) loaded Python modules
+at startup and Python doesn't hot-reload them. After `git pull` /
+`hermes update` / file edits to anything under `~/.hermes/hermes-agent/`,
+the running gateway sees the on-disk source but its cached bytecode is
+stale, so newly-referenced symbols look "missing".
+
+The CLI doesn't show the bug because each `hermes` CLI invocation is a
+fresh process that re-imports.
+
+**Diagnosis.** Compare these two timestamps:
+```bash
+ps -ef | grep "hermes_cli.main gateway"          # gateway start time
+stat -c '%y' ~/.hermes/hermes-agent/utils.py     # last source edit
+```
+If the source is newer than the gateway PID, that's the bug.
+
+**Fix.**
+```bash
+hermes gateway restart
+```
+(systemd user service; survives logout. Restarts in ~5s.)
+
+**When to suspect.** Any `ImportError` arriving through Discord/Telegram/HA
+*after* a recent `hermes update`, `git pull`, or any direct edit to
+`~/.hermes/hermes-agent/`. The CLI working while the gateway fails is the
+fingerprint.
+
+**Prevention.** When you update Hermes, also restart the gateway. We could
+auto-do this with a post-update hook later — file an open question.
+
+---
+
+### Original entries
 
 > Common issues and their solutions for the OpenClaw instance.
 
