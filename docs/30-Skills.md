@@ -245,3 +245,13 @@ Ranges:
   32    → Browser Testing & Verification (A–C, D–Z reserved)
   33–39 → Reserved for future skill groups
 ```
+
+### 2026-05-26 — Claude Code as default coding agent
+- **CLI:** `claude` (v2.1.150) at `~/.nvm/versions/node/v22.22.0/bin/claude`
+- **Default model:** Opus 4.7, pinned in `~/.claude/settings.json` with `effort=high`.
+- **Auth:** Claude API account (jriecken96@gmail.com).
+- **Shell helpers** (`~/.bashrc`):
+  - `cc` → interactive REPL on Opus 4.7
+  - `ccp "<task>"` → one-shot print mode; honours `CC_MAX_TURNS` (default 10)
+- **Skill:** `autonomous-ai-agents/claude-code` (rule #0 documents the Opus pinning).
+- Note: Claude Code internally uses Haiku 4.5 for cheap background ops (file scans, summaries). Main reasoning still runs on Opus — this is expected.
