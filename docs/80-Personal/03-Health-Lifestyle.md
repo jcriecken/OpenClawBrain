@@ -1,0 +1,27 @@
+---
+file_id: 80-Personal/03-Health-Lifestyle
+status: active
+updated: 2026-05-26
+---
+
+# Health & Lifestyle
+
+## Known
+
+- (nothing yet — Carlos hasn't shared health/lifestyle context)
+
+## Inferred / weak signals
+
+- Built a BAC calculator (`/alc-calc`) into the JC suite using the Widmark
+  formula (2026-03-25). Suggests he drinks occasionally and is numerate
+  about it. Don't read more into it.
+
+## To learn
+
+- Sleep schedule (chronotype — morning person? night owl?). Useful for
+  timing the morning briefing well.
+- Exercise / sport — any regular activity?
+- Diet preferences or restrictions (helpful for any food/meal suggestions).
+- Mental health context worth knowing (e.g. ADHD, anxiety, anything that
+  shapes how he wants me to interact).
+- Hobbies outside coding — the 3D-printing portfolio suggests at least one.
