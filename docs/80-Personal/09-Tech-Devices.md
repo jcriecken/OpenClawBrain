@@ -16,6 +16,14 @@ updated: 2026-05-26
 - **Container stack:** Binhex Plex, Sonarr, Radarr (+ Radarr-german), Lidarr,
   Prowlarr, deluge-vpn, nzbget-vpn, FileFlows. (2026-05-26)
 - **Dev workstation IP (when active):** `192.168.0.217:3000`. (2026-05-26)
+- **Gaming setup:** Sim racing rig with steering wheel, pedals, RGB accents;
+  dark-walled room. (2026-05-27, inferred from session)
+- **Smart home:** Home Assistant controls "Office Beleuchtung" (office lighting).
+  (2026-05-27, told me directly)
+- **Remote access:** Accesses Hermes dashboard from other machines via SSH tunnel
+  (`ssh -L 9119:127.0.0.1:9119`). (2026-05-27, told me directly)
+- **Dev tool:** Uses Claude Code CLI with Opus 4.7 as default model for coding
+  tasks. (2026-05-27, told me directly)
 
 ## To learn
 

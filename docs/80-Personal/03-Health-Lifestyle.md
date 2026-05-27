@@ -15,6 +15,9 @@ updated: 2026-05-26
 - Built a BAC calculator (`/alc-calc`) into the JC suite using the Widmark
   formula (2026-03-25). Suggests he drinks occasionally and is numerate
   about it. Don't read more into it.
+- **Hobby:** Sim racing / gaming. Has a dedicated setup with steering wheel,
+  pedals, and RGB lighting in a room with dark walls/ceiling. (2026-05-27,
+  inferred from session)
 
 ## To learn
 

@@ -23,6 +23,9 @@ updated: 2026-05-26
 
 ## Medium priority (next few sessions)
 
+- [ ] Who is Inés de Chavarría to you? She is listed as legal owner of DeChava
+  and Villa Ines repos; you appear in those repos as a support liaison.
+  → `04-People.md`
 - [ ] Age range / generation (changes how I reference cultural touchstones)
   → `01-Identity.md`
 - [ ] Native language + how many you speak (you live in Bonn but have

@@ -13,6 +13,8 @@ updated: 2026-05-26
 - Lean-stream review delivered Sunday 09:00 — he's around on Sunday mornings.
 - Daily heartbeat logs in workspace history through April 2026 — implies
   regular daily sessions historically.
+- **Daily weather briefing:** Receives Beuel weather forecast via Telegram every
+  morning at 08:20 Europe/Berlin. (2026-05-27, told me directly)
 
 ## To learn
 

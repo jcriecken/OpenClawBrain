@@ -14,6 +14,8 @@ updated: 2026-05-26
 - **Timezone:** Europe/Berlin (2026-05-26)
 - **Last name:** Riecken (2026-05-26, inferred from GitHub handle `jcriecken`)
 - **GitHub:** `jcriecken` (2026-05-26)
+- **Languages:** German (asked a question in German). (2026-05-27, inferred from session)
+- **Location (refined):** Beuel district, Bonn. (2026-05-27, inferred from session)
 
 ## To learn
 

@@ -19,6 +19,9 @@ updated: 2026-05-26
   — watches in German too. (2026-05-26)
 - **Music (weak signal):** Has a Spotify integration set up and a
   `condensed_playlists/` directory — likely curates playlists. Genres TBD.
+- **TV:** Watches Rick and Morty. (2026-05-27, inferred from session)
+- **Film (recent):** Added 12 Monkeys (1995) to Plex library on 2026-05-21.
+  (2026-05-27, inferred from session)
 
 ## To learn
 
