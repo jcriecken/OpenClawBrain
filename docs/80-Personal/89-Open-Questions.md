@@ -1,7 +1,7 @@
 ---
 file_id: 80-Personal/89-Open-Questions
 status: active
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 # Open questions — things to ask Carlos
@@ -23,14 +23,6 @@ updated: 2026-05-26
 
 ## Medium priority (next few sessions)
 
-- [ ] Who is Inés de Chavarría to you? She is listed as legal owner of DeChava
-  and Villa Ines repos; you appear in those repos as a support liaison.
-  → `04-People.md`
-- [ ] Age range / generation (changes how I reference cultural touchstones)
-  → `01-Identity.md`
-- [ ] Native language + how many you speak (you live in Bonn but have
-  Spanish-titled freelance projects — DeChava, Villa Ines) → `01-Identity.md`
-- [ ] Day job vs full-time freelance? Employer? → `02-Work-Career.md`
 - [ ] Hobbies outside coding (the 3D-printing thing suggests at least one)
   → `03-Health-Lifestyle.md`, `05-Tastes.md`
 - [ ] Coffee or tea? (For the morning briefing's vibe.) → `05-Tastes.md`

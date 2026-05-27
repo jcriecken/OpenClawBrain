@@ -1,6 +1,6 @@
 ---
 file_id: 20-Projects
-description: Complete registry of all development projects � web apps, repos, tech stacks, and documenationHub cross-references.
+description: Complete registry of all development projects � web apps, repos, tech stacks, and documenationHub cross-references.
 status: active
 authoritative: true
 ---
@@ -12,6 +12,10 @@ authoritative: true
 ---
 
 ## Ecosystem Overview
+
+> **Owner:** Jan Carlos Riecken (`jcriecken`) — SAP consultant by day, JC Development as side hustle.
+> **Revenue:** < €100/month currently. Goal: ~$6,000/year.
+> **Boundaries:** DeChava and Villa Ines are family projects (mother: Inés de Chavarría) — agent is hands-off.
 
 ```mermaid
 graph TB

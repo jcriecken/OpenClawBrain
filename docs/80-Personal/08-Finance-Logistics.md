@@ -1,7 +1,7 @@
 ---
 file_id: 80-Personal/08-Finance-Logistics
 status: active
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 # Finance & Logistics
@@ -12,6 +12,16 @@ updated: 2026-05-26
 
 ## Known
 
+- **Side hustle (JC Development):** Einzelunternehmen, registered 01.04.2026.
+  < €100/month currently. Goal: ~$6,000/year (≈ €460/month). Officially
+  projected: 1.200€ (year 1), 2.000€ (year 2). (2026-05-27)
+- **Tax status:** Kleinunternehmer (§ 19 UStG) — no VAT charged until threshold
+  exceeded. EÜR (Einnahmen-Überschuss-Rechnung) for profit calculation.
+  Wirtschaftsjahr begins 01.04. (2026-05-27)
+- **Finanzamt:** Sankt Augustin. Steuer-ID: 95 105 462 732. Steuernummer
+  newly applied for. (2026-05-27)
+- **Business bank account:** Sparkasse KölnBonn (IBAN in credentials.env).
+  (2026-05-27)
 - **Vercel:** preferred deployment target. Probably has a paid plan or hobby
   tier — TBD. (2026-05-26)
 - **Firebase / GCP:** uses Firestore + Firebase Auth for personal apps. GCP
@@ -23,8 +33,6 @@ updated: 2026-05-26
 
 ## To learn
 
-- Bank / payment method context — do I ever need to be aware of currency
-  conversions, billing-day timing?
 - Major recurring subscriptions worth tracking (Plex Pass, OpenAI,
   Anthropic, gym, streaming services he keeps)?
 - Anything in renewal/cancellation territory he wants nudges about?

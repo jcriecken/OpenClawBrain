@@ -1,7 +1,7 @@
 ---
 file_id: 80-Personal/04-People
 status: active
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 # People in Carlos's life
@@ -11,12 +11,15 @@ updated: 2026-05-26
 
 ## Known
 
-- (none recorded yet)
+- **Inés de Chavarría** — Carlos's mother. Conference interpreter based in
+  Bad Honnef, Germany. Legal owner of `DeChava` and `Villa Ines` family
+  property-management projects. Carlos (as Jan / jcriecken) maintains the
+  repos and acts as tech contact. (2026-05-27)
 
 ## To learn
 
-- Closest family (parents, siblings, partner, children)?
+- Siblings, partner, children, extended family?
 - Best friends — anyone he'd mention regularly?
-- Work people — boss, recurring collaborators, clients (esp. the
-  real-estate clients behind DeChava / Villa Ines)?
+- Work people — boss, recurring collaborators, clients (esp. outside the
+  family real-estate projects)?
 - Anyone in Bonn worth knowing about (neighbours, recurring meetups)?
