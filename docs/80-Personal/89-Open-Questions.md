@@ -36,6 +36,7 @@ updated: 2026-05-27
 - [ ] Daily-driver computer make/model → `09-Tech-Devices.md`
 - [ ] 3D printer make/model → `09-Tech-Devices.md`
 - [ ] Phone OS → `09-Tech-Devices.md`
+- [ ] Which Plex clients beyond Edge? (LG TV app? phone? tablet?) → `09-Tech-Devices.md`
 
 ---
 

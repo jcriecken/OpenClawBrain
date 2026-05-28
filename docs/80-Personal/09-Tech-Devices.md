@@ -20,6 +20,10 @@ updated: 2026-05-26
   dark-walled room. (2026-05-27, inferred from session)
 - **Smart home:** Home Assistant controls "Office Beleuchtung" (office lighting).
   (2026-05-27, told me directly)
+- **Plex client in HA:** `media_player.plex_plex_web_microsoft_edge_windows`
+  registered 2026-05-27. Wants cinema-mode automation for ALL Plex clients
+  (future-proofed via template matching `media_player.plex_*`). (2026-05-27,
+  told me directly)
 - **Remote access:** Accesses Hermes dashboard from other machines via SSH tunnel
   (`ssh -L 9119:127.0.0.1:9119`). (2026-05-27, told me directly)
 - **Dev tool:** Uses Claude Code CLI with Opus 4.7 as default model for coding
