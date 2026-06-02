@@ -1,7 +1,7 @@
 ---
 file_id: 80-Personal/89-Open-Questions
 status: active
-updated: 2026-05-27
+updated: 2026-06-02
 ---
 
 # Open questions — things to ask Carlos
@@ -28,6 +28,10 @@ updated: 2026-05-27
 - [ ] Coffee or tea? (For the morning briefing's vibe.) → `05-Tastes.md`
 - [ ] Music genres you actually listen to (vs what's just in Spotify) →
   `05-Tastes.md`
+- [ ] For foreign films (e.g. Parasite), do you prefer English dubs or
+  original audio with English subtitles? → `05-Tastes.md`
+- [ ] Do you binge animated series regularly, or are South Park / Rick and
+  Morty exceptions? → `05-Tastes.md`
 
 ## Low priority (ambient — let them surface naturally)
 

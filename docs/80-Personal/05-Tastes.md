@@ -17,6 +17,20 @@ updated: 2026-05-26
   Band of Brothers, The Matrix. Mixed with newer (TRON: Ares 2025).
   Big library (655 movies in Radarr). German-language Radarr instance exists
   — watches in German too. (2026-05-26)
+- **Film/TV (confirmed):** Almost exclusively watches movies in English.
+  Target file size per movie: 10–25 GB (prefers high-quality 1080p encodes
+  over Remux or 4K). (2026-05-28)
+- **Film/TV (superseded):** ~~German-language Radarr instance exists — watches
+  in German too.~~ Superseded: he clarified he almost exclusively watches in
+  English. (2026-06-01, told me directly)
+- **Film genres (recent):** Requested psychological thriller (The Housemaid
+  2025), sci-fi (Project Hail Mary 2026), Korean drama (Parasite 2019).
+  (2026-06-01, inferred from session)
+- **TV/Animation:** Full back-catalog requests for South Park and Rick and
+  Morty — enjoys animated comedy series. (2026-06-01, inferred from session)
+- **Audio preference:** Specifically requests English audio tracks, even for
+  foreign-language films (e.g. asked for English track on Parasite). (2026-06-01,
+  told me directly)
 - **Music (weak signal):** Has a Spotify integration set up and a
   `condensed_playlists/` directory — likely curates playlists. Genres TBD.
 - **TV:** Watches Rick and Morty. (2026-05-27, inferred from session)
