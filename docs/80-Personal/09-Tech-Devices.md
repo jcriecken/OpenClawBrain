@@ -28,6 +28,9 @@ updated: 2026-05-26
   (`ssh -L 9119:127.0.0.1:9119`). (2026-05-27, told me directly)
 - **Dev tool:** Uses Claude Code CLI with Opus 4.7 as default model for coding
   tasks. (2026-05-27, told me directly)
+- **Vehicle:** Ford Fiesta Mk7 (Typ JA8, EZ 26.06.2008), 1.25 Duratec 44 kW / 60 PS.
+  Bought for 3.000 € with 36.000 km. License plate: RE-GK 5009. Known issue:
+  lightly wet gearbox (Simmerring / seal leak). (2026-06-05, told me directly)
 
 ## To learn
 

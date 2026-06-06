@@ -33,7 +33,8 @@ updated: 2026-05-26
   told me directly)
 - **Music (weak signal):** Has a Spotify integration set up and a
   `condensed_playlists/` directory — likely curates playlists. Genres TBD.
-- **TV:** Watches Rick and Morty. (2026-05-27, inferred from session)
+- **TV/Animation (confirmed):** Watches Rick and Morty. Also watches One Piece (anime) — specifically interested in uncut/original Japanese content, not censored/dubbed edits. (2026-06-05, told me directly)
+- **TV/Animation (confirmed):** Following the Scrubs (2026) revival on ABC/Hulu. Asked to add it to Sonarr. (2026-06-05, inferred from session)
 - **Film (recent):** Added 12 Monkeys (1995) to Plex library on 2026-05-21.
   (2026-05-27, inferred from session)
 

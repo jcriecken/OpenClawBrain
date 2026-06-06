@@ -32,6 +32,9 @@ updated: 2026-06-02
   original audio with English subtitles? → `05-Tastes.md`
 - [ ] Do you binge animated series regularly, or are South Park / Rick and
   Morty exceptions? → `05-Tastes.md`
+- [ ] What's the exact motor code of your Fiesta 1.25 60PS? (STJA vs SNJA — this determines if it has a timing belt or chain.) → `09-Tech-Devices.md`
+- [ ] Any other known mechanical issues on the Fiesta beyond the gearbox leak? → `09-Tech-Devices.md`
+- [ ] Do you do car maintenance yourself or have a trusted mechanic? → `03-Health-Lifestyle.md`
 
 ## Low priority (ambient — let them surface naturally)
 

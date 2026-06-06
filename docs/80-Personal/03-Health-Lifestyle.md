@@ -18,6 +18,9 @@ updated: 2026-05-26
 - **Hobby:** Sim racing / gaming. Has a dedicated setup with steering wheel,
   pedals, and RGB lighting in a room with dark walls/ceiling. (2026-05-27,
   inferred from session)
+- **Vehicle ownership:** Recently bought a used Ford Fiesta Mk7 (1.25 Duratec,
+  60 PS, 2008, 36.000 km) for 3.000 €. Aware of mechanical issues (gearbox
+  seal leak). (2026-06-05, told me directly)
 
 ## To learn
 
