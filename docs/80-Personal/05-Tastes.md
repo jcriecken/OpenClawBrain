@@ -37,6 +37,8 @@ updated: 2026-05-26
 - **TV/Animation (confirmed):** Following the Scrubs (2026) revival on ABC/Hulu. Asked to add it to Sonarr. (2026-06-05, inferred from session)
 - **Film (recent):** Added 12 Monkeys (1995) to Plex library on 2026-05-21.
   (2026-05-27, inferred from session)
+- **Film (requested):** Asked for *Apocalypto* (2006), directed by Mel Gibson.
+  (2026-06-14, told me directly)
 
 ## To learn
 

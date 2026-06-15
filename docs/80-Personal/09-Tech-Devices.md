@@ -1,7 +1,7 @@
 ---
 file_id: 80-Personal/09-Tech-Devices
 status: active
-updated: 2026-05-26
+updated: 2026-06-14
 ---
 
 # Tech & devices
@@ -21,16 +21,24 @@ updated: 2026-05-26
 - **Smart home:** Home Assistant controls "Office Beleuchtung" (office lighting).
   (2026-05-27, told me directly)
 - **Plex client in HA:** `media_player.plex_plex_web_microsoft_edge_windows`
-  registered 2026-05-27. Wants cinema-mode automation for ALL Plex clients
-  (future-proofed via template matching `media_player.plex_*`). (2026-05-27,
-  told me directly)
+  registered 2026-05-27. ~~Wants cinema-mode automation for ALL Plex clients
+  (future-proofed via template matching `media_player.plex_*`).~~ Superseded:
+  automation implemented 2026-06-14. Dims office lights to 1% when any Plex
+  client starts playing (template matches `media_player.plex_*`), restores
+  previous brightness on stop/pause. Only triggers after sunset and only if
+  lights were already on. (2026-05-27 / 2026-06-14, told me directly)
 - **Remote access:** Accesses Hermes dashboard from other machines via SSH tunnel
   (`ssh -L 9119:127.0.0.1:9119`). (2026-05-27, told me directly)
 - **Dev tool:** Uses Claude Code CLI with Opus 4.7 as default model for coding
   tasks. (2026-05-27, told me directly)
-- **Vehicle:** Ford Fiesta Mk7 (Typ JA8, EZ 26.06.2008), 1.25 Duratec 44 kW / 60 PS.
-  Bought for 3.000 € with 36.000 km. License plate: RE-GK 5009. Known issue:
-  lightly wet gearbox (Simmerring / seal leak). (2026-06-05, told me directly)
+- **Vehicle:** Ford Fiesta (Typ JH1, Variant A9JA1), grey, 5-door hatchback.
+  EZ 26.06.2008, VIN `WF0HXXGAJH8K58112`, license plate `RE-GK 5009`.
+  1.2L petrol (E10), 51 kW (~69 PS), manual 5-speed.
+  Bought 30.05.2026 from Lutz & Gudrun Kühnel (Oer-Erkenschwick) for 3.000 €.
+  Mileage at purchase: 36.301 km. 1 owner (seller). TÜV clean through
+  06.2027 (passed re-inspection 14.07.2025 after brake/light repairs).
+  Insured (HP + VK) through 31.12.2026. Green card valid until 21.02.2027.
+  Includes 2 keys, winter + summer tyres, battery charger. (2026-06-14)
 
 ## To learn
 
