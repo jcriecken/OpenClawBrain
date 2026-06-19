@@ -39,6 +39,8 @@ updated: 2026-06-14
   06.2027 (passed re-inspection 14.07.2025 after brake/light repairs).
   Insured (HP + VK) through 31.12.2026. Green card valid until 21.02.2027.
   Includes 2 keys, winter + summer tyres, battery charger. (2026-06-14)
+- **Vehicle insurance provider:** Provinzial (HP + VK). Carlos coordinates
+  this with his father (Papa). (2026-06-18, told me directly)
 
 ## To learn
 

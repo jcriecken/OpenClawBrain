@@ -15,6 +15,8 @@ updated: 2026-05-27
   (2026-05-27)
 - **Side business:** Einzelunternehmen "jc-development" (officially registered
   01.04.2026). Gewerbebetrieb: web-hosting. (2026-05-27)
+- **Gewerbe registration location:** Registered at Stadt Bonn (city trade office).
+  Business address remains Königswinter. (2026-06-18, inferred from session)
 - **Business address:** Heisterbacher Str. 20, 53639 Königswinter. (2026-05-27)
 - **Primary activity (technical, side):** Builds personal Next.js apps on a stack
   he calls "JC Development" (Next 16 / Tailwind v4 / Firebase / Vercel).

@@ -15,6 +15,8 @@ updated: 2026-05-27
   Bad Honnef, Germany. Legal owner of `DeChava` and `Villa Ines` family
   property-management projects. Carlos (as Jan / jcriecken) maintains the
   repos and acts as tech contact. (2026-05-27)
+- **Father (Papa)** — Carlos's father. Mentioned in context of handling/car
+  insurance (Provinzial) for Carlos's Ford Fiesta. (2026-06-18, told me directly)
 
 ## To learn
 
