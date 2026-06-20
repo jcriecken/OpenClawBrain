@@ -18,10 +18,15 @@ updated: 2026-05-27
 - **Father (Papa)** — Carlos's father. Mentioned in context of handling/car
   insurance (Provinzial) for Carlos's Ford Fiesta. (2026-06-18, told me directly)
 
+- **Monika** — Carlos's partner. Mentioned in context of a Telegram group
+  "DEV Carlos and Monika" for morning briefings on his projects. (2026-06-20,
+  inferred from session)
+
 ## To learn
 
-- Siblings, partner, children, extended family?
+- Siblings, children, extended family?
 - Best friends — anyone he'd mention regularly?
 - Work people — boss, recurring collaborators, clients (esp. outside the
   family real-estate projects)?
 - Anyone in Bonn worth knowing about (neighbours, recurring meetups)?
+- Relationship status with Monika — married, engaged, living together?

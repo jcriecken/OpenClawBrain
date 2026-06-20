@@ -45,6 +45,9 @@ updated: 2026-06-02
 - [ ] 3D printer make/model → `09-Tech-Devices.md`
 - [ ] Phone OS → `09-Tech-Devices.md`
 - [ ] Which Plex clients beyond Edge? (LG TV app? phone? tablet?) → `09-Tech-Devices.md`
+- [ ] GPU model in your local workstation (the 10GB VRAM one) → `09-Tech-Devices.md`
+- [ ] Relationship status with Monika (married / engaged / living together?) → `04-People.md`
+- [ ] Deployment target for feierlich.app (Google Firebase? Vercel?) → `02-Work-Career.md`
 
 ---
 

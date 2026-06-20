@@ -27,6 +27,15 @@ updated: 2026-05-27
 - **Freelance / side work:** Static HTML for real estate projects. Family
   projects (`DeChava`, `Villa Ines`) are hands-off for the agent but Carlos
   (as Jan / jcriecken) is the developer and maintainer. (2026-05-27)
+- **Side project (active):** feierlich.app — wedding seating editor built on the
+  JC Development stack (Next.js / Firebase / Tailwind). Lives in `~/DEV`.
+  Target users: wedding planners / couples. (2026-06-20, inferred from session)
+- **Side project (backlog):** Hackenheld — multi-tenant Next.js platform with
+  subdomain-based routing, Firestore, and admin dashboard. Has a full M0-M11
+  implementation roadmap; currently shelved while feierlich.app is active.
+  (2026-06-20, inferred from session)
+- **Side project (archived):** JotGpt — AI essay-writing tool. Built 2025.
+  (2026-06-20, inferred from session)
 - **Mindset:** Wants AI assistance that operates like a Product Owner —
   proactive technical and aesthetic suggestions, not pure execution.
   (2026-05-26)
@@ -38,3 +47,5 @@ updated: 2026-05-27
 - Typical work hours / does he work weekends?
 - Career history: how did he land at SAP at 18?
 - 1-year / 5-year ambition?
+- Will feierlich.app be monetised or internal-only?
+- What happened to JotGpt ( why archived)?

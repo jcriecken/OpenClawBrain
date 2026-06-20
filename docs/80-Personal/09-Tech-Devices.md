@@ -41,6 +41,16 @@ updated: 2026-06-14
   Includes 2 keys, winter + summer tyres, battery charger. (2026-06-14)
 - **Vehicle insurance provider:** Provinzial (HP + VK). Carlos coordinates
   this with his father (Papa). (2026-06-18, told me directly)
+- **Local AI inference stack:** Ollama with two models:
+  - `batiai/qwen3.6-27b:q4` (~16 GB, workhorse for general tasks)
+  - `bazobehram/qwen3-coder-next:latest` (~48 GB, heavy coding tasks)
+  (2026-06-20, told me directly)
+- **GPU constraint:** ~10 GB VRAM limits local inference to 1 concurrent
+  subagent at a time to avoid OOM crashes. (2026-06-20, inferred from session)
+- **Search tool:** Self-hosted SearxNG instance on `localhost:8080`, used as
+  the `browser-use` start page instead of Google. (2026-06-20, inferred from session)
+- **Web automation:** Uses `browser-use` via Hermes for web tasks and
+  data extraction. (2026-06-20, inferred from session)
 
 ## To learn
 

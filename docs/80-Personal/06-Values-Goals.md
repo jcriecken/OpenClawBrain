@@ -20,6 +20,10 @@ updated: 2026-05-26
   to me ("I want you to handle the keys"). Trust is being extended in
   exchange for competence. (2026-05-26)
 
+- Wants autonomous overnight coding runs via `delegate_task` subagents routed
+  through the local Ollama backend so Jarvis can orchestrate non-stop
+  development while he sleeps. (2026-06-20, told me directly)
+
 ## To learn
 
 - What does "becoming smarter" actually mean to him — career? craft?

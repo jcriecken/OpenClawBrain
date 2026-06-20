@@ -15,6 +15,9 @@ updated: 2026-05-26
   regular daily sessions historically.
 - **Daily weather briefing:** Receives Beuel weather forecast via Telegram every
   morning at 08:20 Europe/Berlin. (2026-05-27, told me directly)
+- **Active project rhythm:** While working on feierlich.app, expects a progress
+  check every 45 minutes and a morning briefing sent to the Telegram group
+  "DEV Carlos and Monika". (2026-06-20, told me directly)
 
 ## To learn
 
