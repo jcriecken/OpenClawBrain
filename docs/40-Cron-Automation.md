@@ -27,8 +27,17 @@ updated: 2026-05-26
 | `homelab-arr-health` | `5 8 * * *` | no_agent | `arr_health.sh` | — | **0 tokens** (silent on green) |
 | `lean-stream-weekly` | `0 9 * * 0` | LLM (small) | `lean_stream_scan.sh` | terminal, file | ~$0.01 |
 | `morning-briefing` | `30 7 * * *` | LLM (small) | `briefing_data.sh` | terminal | ~$0.005 |
+| `feierlich-daily-digest` | `30 6 * * *` (08:30 Berlin) | LLM | — | default (terminal, file, send_message) | ~$0.01 |
 
-Estimated total monthly cost: **~$0.20** at Opus pricing.
+Estimated total monthly cost: **~$0.50** at Opus pricing.
+
+### `feierlich-daily-digest` (added 2026-06-20)
+Posts a daily German status digest of the feierlich project to Telegram group
+"DEV Carlos and Monika". Reads `git log` (last 24h) + `docs/PROGRESS.md` +
+`CHANGELOG.md` from `/home/skilla/DEV/feierlich/`, composes a <600-char digest
+(status rollup, yesterday's commits, next focus), sends one message via
+`send_message` to `telegram:DEV Carlos and Monika (group)`. Stays short when
+no activity. feierlich is the current top-priority project.
 
 ## Scripts
 
