@@ -21,7 +21,9 @@ updated: 2026-05-27
 - **Timezone:** Europe/Berlin (2026-05-26)
 - **GitHub:** `jcriecken` (Jan Carlos Riecken) (2026-05-27)
 - **Languages:** German (native/fluent), Spanish (family connection via mother
-  Inés de Chavarría; project names DeChava, Villa Ines). (2026-05-27)
+  Inés de Chavarría; project names DeChava, Villa Ines). Also fluent in
+  English — switches fluidly between English and German mid-conversation,
+  sometimes responding in German to English prompts. (2026-05-27 / 2026-06-20)
 - **Education:** Student at DHBW Karlsruhe (Duale Hochschule Baden-Württemberg),
   studying Wirtschaftsinformatik (Business Informatics) with focus on Sales
   and Consulting. Dual-study program — works and studies in parallel. (2026-05-27)

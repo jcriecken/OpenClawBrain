@@ -23,6 +23,14 @@ updated: 2026-05-26
 - Wants autonomous overnight coding runs via `delegate_task` subagents routed
   through the local Ollama backend so Jarvis can orchestrate non-stop
   development while he sleeps. (2026-06-20, told me directly)
+- **Highest-priority project right now: feierlich** — explicitly asked the
+  agent to treat it as top priority, build up project context, and give
+  regular (daily) updates in the Telegram group with Monika. (2026-06-20,
+  told me directly)
+- **Model preference:** wants GLM 5.2 as the primary model for both the main
+  agent and delegation (auxiliary vision/web-extract can stay on specialized
+  models). Values speed and using the newest model. (2026-06-20, told me
+  directly)
 
 ## To learn
 

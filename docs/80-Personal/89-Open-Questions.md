@@ -46,8 +46,10 @@ updated: 2026-06-02
 - [ ] Phone OS → `09-Tech-Devices.md`
 - [ ] Which Plex clients beyond Edge? (LG TV app? phone? tablet?) → `09-Tech-Devices.md`
 - [ ] GPU model in your local workstation (the 10GB VRAM one) → `09-Tech-Devices.md`
+  **Answered 2026-06-20:** NVIDIA GeForce RTX 3080 (10 GB VRAM). Logged in `09-Tech-Devices.md`.
 - [ ] Relationship status with Monika (married / engaged / living together?) → `04-People.md`
 - [ ] Deployment target for feierlich.app (Google Firebase? Vercel?) → `02-Work-Career.md`
+  **Answered 2026-06-20:** Google Firebase. Logged in `02-Work-Career.md`.
 
 ---
 

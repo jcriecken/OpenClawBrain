@@ -27,9 +27,16 @@ updated: 2026-05-27
 - **Freelance / side work:** Static HTML for real estate projects. Family
   projects (`DeChava`, `Villa Ines`) are hands-off for the agent but Carlos
   (as Jan / jcriecken) is the developer and maintainer. (2026-05-27)
-- **Side project (active):** feierlich.app — wedding seating editor built on the
-  JC Development stack (Next.js / Firebase / Tailwind). Lives in `~/DEV`.
-  Target users: wedding planners / couples. (2026-06-20, inferred from session)
+- **Side project (active, top priority):** feierlich.app — KI-Hochzeitsplaner
+  (AI wedding planner for the German market). MVP = visual seating plan editor
+  using @dnd-kit canvas. Stack: Next.js 16 App Router + Firebase (multi-tenant
+  Firestore, Cloud Run SSR europe-west1), Cormorant/DM Sans typography. Live
+  at feierlich.app. Repo: `/home/skilla/DEV/feierlich/`. Roadmap: R1
+  Persistenz/CRUD → R2 Bearbeitung → R3 Collaboration → v1.0.0. Current
+  state: v0.1.0 MVP shell live, focus on R1-E1-S1. Deployment target:
+  Google Firebase. Agent role in repo: read-only observer (per
+  docs/HERMES.md) — scans board daily, reports to Telegram. (2026-06-20,
+  told me directly)
 - **Side project (backlog):** Hackenheld — multi-tenant Next.js platform with
   subdomain-based routing, Firestore, and admin dashboard. Has a full M0-M11
   implementation roadmap; currently shelved while feierlich.app is active.
