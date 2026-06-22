@@ -30,6 +30,12 @@ updated: 2026-05-27
 - **OpenRouter:** uses `claude-opus-4.7` as default model via OpenRouter
   (config.yaml). Pay-per-use. (2026-05-26)
 - **Unraid:** owns the licence for the homelab box. (2026-05-26)
+- **Claude Pro (Anthropic):** 22€/month subscription, paid by Carlos for
+  himself. (2026-06-21, told me directly)
+- **Claude Pro share for JCyberKiller:** Carlos currently pays JCyberKiller's
+  Claude Pro subscription; JCyberKiller is expected to reimburse monthly.
+  A monthly reminder cron is set (1st of month, 10:00). (2026-06-21, told me
+  directly)
 
 ## To learn
 

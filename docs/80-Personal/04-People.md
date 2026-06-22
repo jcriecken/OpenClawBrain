@@ -21,6 +21,10 @@ updated: 2026-05-27
 - **Monika** — Carlos's partner. Mentioned in context of a Telegram group
   "DEV Carlos and Monika" for morning briefings on his projects. (2026-06-20,
   inferred from session)
+- **JCyberKiller** — Carlos's best friend. Dev collaborator; invited into a
+  Firebase dev-Q&A Telegram group where Carlos and he work on feierlich /
+  JC Development questions. Carlos currently fronts JCyberKiller's Claude
+  Pro share (JCyberKiller reimburses monthly). (2026-06-21, told me directly)
 
 ## To learn
 

@@ -19,6 +19,10 @@ updated: 2026-05-26
 - **On trust with the agent:** comfortable delegating credential handling
   to me ("I want you to handle the keys"). Trust is being extended in
   exchange for competence. (2026-05-26)
+- **Group-chat engagement preference:** In group/Telegram chats, only
+  respond when explicitly @-tagged or a direct technical question is asked.
+  Not every message is addressed to the agent — don't treat it as such.
+  (2026-06-21, told me directly)
 
 - Wants autonomous overnight coding runs via `delegate_task` subagents routed
   through the local Ollama backend so Jarvis can orchestrate non-stop

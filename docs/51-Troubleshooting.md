@@ -47,6 +47,34 @@ auto-do this with a post-update hook later — file an open question.
 
 ---
 
+### Firebase CLI: native account linking requires specific Node.js versions
+
+**Symptom (2026-06-21, feierlich project):** `firebase` CLI can't link a
+Firebase account natively (native login/account use flow fails silently or
+with a cryptic error).
+
+**Cause.** The Firebase CLI's native account-linking code path only works
+on specific Node.js versions. Confirmed working: **Node 24.16.0** or
+**Node 22.30.0**. Other versions (incl. older LTS) fail. This is
+undocumented in the official Firebase docs — discovered via GitHub forum
+threads after ~30 min of debugging. Gemini also didn't know.
+
+**Fix.** Switch Node to one of the confirmed versions, e.g. via `nvm`:
+```bash
+nvm install 22.30.0   # or 24.16.0
+nvm use 22.30.0
+firebase login        # native account linking now works
+```
+
+**When to suspect.** Firebase CLI auth/account-linking fails on a machine
+that otherwise runs `firebase deploy` fine (e.g. with an existing
+`firebase login --token` or cached creds). Check `node --version` first.
+
+**Lesson.** Version-pinned auth flows are a recurring Firebase CLI
+footgun. Pin the Node version in the project (`.nvmrc`) to avoid drift.
+
+---
+
 ### Original entries
 
 > Common issues and their solutions for the OpenClaw instance.
