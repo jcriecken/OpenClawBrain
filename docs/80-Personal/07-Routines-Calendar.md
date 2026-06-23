@@ -18,6 +18,10 @@ updated: 2026-05-26
 - **Active project rhythm:** While working on feierlich.app, expects a progress
   check every 45 minutes and a morning briefing sent to the Telegram group
   "DEV Carlos and Monika". (2026-06-20, told me directly)
+- **Weekly motivation/accountability check with JCyberKiller:** Every Monday
+  09:00, a cron checks the git logs of feierlich + jc-development. If commits
+  exist → concrete praise; if not → motivating nudge. Delivered to the
+  Firebase dev-Q&A Telegram group. (2026-06-22, told me directly)
 
 ## To learn
 
