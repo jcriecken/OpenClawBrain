@@ -39,6 +39,10 @@ updated: 2026-05-26
   (2026-05-27, inferred from session)
 - **Film (requested):** Asked for *Apocalypto* (2006), directed by Mel Gibson.
   (2026-06-14, told me directly)
+- **TV/Animation (current):** Actively follows Rick and Morty S09 as episodes
+  air in real-time — noticed S09E05 was a mislabeled release (content was
+  actually E04) and asked for a re-download. Next episode (E06) airs
+  2026-06-28. (2026-06-23, inferred from session)
 
 ## To learn
 

@@ -21,10 +21,20 @@ updated: 2026-05-27
 - **Monika** — Carlos's partner. Mentioned in context of a Telegram group
   "DEV Carlos and Monika" for morning briefings on his projects. (2026-06-20,
   inferred from session)
+- **Monika (MoMi)** — goes by "MoMi" in app-testing contexts. Actively tests
+  the feierlich app and provides detailed product feedback: specified
+  guest-list import fields (Vorname, Nachname, Party, Kategorie A/B,
+  Diätanforderungen, Kind) and the elegant "Party" column concept for
+  auto-linking couples/groups at seating. Engaged co-stakeholder in the
+  product, not just a passive tester. (2026-06-23, inferred from session)
 - **JCyberKiller** — Carlos's best friend. Dev collaborator; invited into a
   Firebase dev-Q&A Telegram group where Carlos and he work on feierlich /
   JC Development questions. Carlos currently fronts JCyberKiller's Claude
   Pro share (JCyberKiller reimburses monthly). (2026-06-21, told me directly)
+- **JCyberKiller (personal note):** When JCyberKiller was having a down day,
+  Carlos proactively asked Jarvis to send warm, supportive words to the
+  group chat — Carlos actively looks out for his friends' wellbeing.
+  (2026-06-23, inferred from session)
 
 ## To learn
 
