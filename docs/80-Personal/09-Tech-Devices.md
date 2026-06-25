@@ -41,10 +41,18 @@ updated: 2026-06-14
   Includes 2 keys, winter + summer tyres, battery charger. (2026-06-14)
 - **Vehicle insurance provider:** Provinzial (HP + VK). Carlos coordinates
   this with his father (Papa). (2026-06-18, told me directly)
-- **Local AI inference stack:** Ollama with two models:
-  - `batiai/qwen3.6-27b:q4` (~16 GB, workhorse for general tasks)
-  - `bazobehram/qwen3-coder-next:latest` (~48 GB, heavy coding tasks)
-  (2026-06-20, told me directly)
+- **Local AI inference stack:** Ollama running on the Hermes box at
+  `192.168.0.147:11434`. Models available (as of 2026-06-24):
+  - `qwen2.5-coder:7b` (~4.7 GB, coding)
+  - `gemma4:26b` (~17 GB, general)
+  - `glm-4.7-flash:latest` (~19 GB, general)
+  Earlier model list (qwen3.6-27b, qwen3-coder-next) has been rotated.
+  (2026-06-24, inferred from session)
+- **Dev setup (multi-machine):** Carlos writes code on a separate machine
+  (not the Hermes box) using **VS Code** as his editor. Connects back to the
+  Hermes/Ollama box remotely over LAN. Recommended path: Continue.dev
+  extension pointing at the remote Ollama endpoint. (2026-06-24,
+  inferred from session)
 - **GPU:** NVIDIA GeForce RTX 3080 (10 GB VRAM). Driver 595.84, CUDA 13.2.
   Ollama 0.20.4 as systemd service. (2026-06-20, inferred from session)
 - **GPU constraint:** ~10 GB VRAM limits local inference to 1 concurrent

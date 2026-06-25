@@ -42,6 +42,8 @@ updated: 2026-06-02
 - [ ] 5-year vision → `06-Values-Goals.md`
 - [ ] Travel coming up in next 6 months → `07-Routines-Calendar.md`
 - [ ] Daily-driver computer make/model → `09-Tech-Devices.md`
+  **Partial signal 2026-06-24:** Uses VS Code on a separate machine (not the
+  Hermes box), connects to Ollama over LAN. OS / hardware still unknown.
 - [ ] 3D printer make/model → `09-Tech-Devices.md`
 - [ ] Phone OS → `09-Tech-Devices.md`
 - [ ] Which Plex clients beyond Edge? (LG TV app? phone? tablet?) → `09-Tech-Devices.md`
