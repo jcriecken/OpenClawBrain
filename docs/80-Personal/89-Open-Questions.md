@@ -39,6 +39,9 @@ updated: 2026-06-02
 
 ## Low priority (ambient — let them surface naturally)
 
+- [ ] Does Carlos want deep reasoning (/think, chain-of-thought) before
+  every answer? Signal was ambiguous — he typed "Always /think" then "Ich
+  hoffe über vpn". Needs confirmation. → `06-Values-Goals.md`
 - [ ] 5-year vision → `06-Values-Goals.md`
 - [ ] Travel coming up in next 6 months → `07-Routines-Calendar.md`
 - [ ] Daily-driver computer make/model → `09-Tech-Devices.md`

@@ -59,6 +59,12 @@ updated: 2026-06-14
   subagent at a time to avoid OOM crashes. (2026-06-20, inferred from session)
 - **Search tool:** Self-hosted SearxNG instance on `localhost:8080`, used as
   the `browser-use` start page instead of Google. (2026-06-20, inferred from session)
+- **Download-client preference (security):** Carlos deliberately uses Usenet
+  (NZBGet) over torrents because he considers Usenet "safer" — no P2P
+  exposure, no peers seeing his IP. When Deluge (torrent) was added to
+  Sonarr/Radarr to fix failed grabs, he asked to disable it again because
+  there's no VPN configured. Torrents should stay disabled unless a VPN is
+  set up. (2026-06-26, told me directly)
 - **Web automation:** Uses `browser-use` via Hermes for web tasks and
   data extraction. (2026-06-20, inferred from session)
 

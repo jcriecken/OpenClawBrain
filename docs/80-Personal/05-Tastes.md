@@ -39,6 +39,11 @@ updated: 2026-05-26
   (2026-05-27, inferred from session)
 - **Film (requested):** Asked for *Apocalypto* (2006), directed by Mel Gibson.
   (2026-06-14, told me directly)
+- **Film/TV (requested):** Added *The Day of the Jackal* (2024, Sky Atlantic,
+  Eddie Redmayne spy thriller), *MobLand* (2025, Paramount+ crime drama),
+  and *20,000 Leagues Under the Sea* (1954, Disney classic adventure).
+  Reinforces taste for spy/crime thrillers and classic adventure films.
+  (2026-06-26, told me directly)
 - **TV/Animation (current):** Actively follows Rick and Morty S09 as episodes
   air in real-time — noticed S09E05 was a mislabeled release (content was
   actually E04) and asked for a re-download. Next episode (E06) airs
