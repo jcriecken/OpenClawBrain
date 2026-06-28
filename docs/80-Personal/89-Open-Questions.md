@@ -57,6 +57,9 @@ updated: 2026-06-02
   **Partial signal 2026-06-23:** Monika ("MoMi") is actively co-planning a
   wedding seating app (feierlich) with detailed guest-list requirements.
   Strong inference: they are planning their own wedding. Needs confirmation.
+  **Further signal 2026-06-28:** MoMi is specifying real-family seating
+  constraints ("Onkel X darf nicht neben Tante Y sitzen") — sounds like
+  their own guest list, not a generic feature. Still not confirmed.
 - [ ] Deployment target for feierlich.app (Google Firebase? Vercel?) → `02-Work-Career.md`
   **Answered 2026-06-20:** Google Firebase. Logged in `02-Work-Career.md`.
 

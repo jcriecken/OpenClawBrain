@@ -26,7 +26,12 @@ updated: 2026-05-27
   guest-list import fields (Vorname, Nachname, Party, Kategorie A/B,
   Diätanforderungen, Kind) and the elegant "Party" column concept for
   auto-linking couples/groups at seating. Engaged co-stakeholder in the
-  product, not just a passive tester. (2026-06-23, inferred from session)
+  product, not just a passive tester. Thinks in UX flows — e.g. insisted
+  both import AND manual guest entry must work; requested a drag-sync
+  toggle (Einzel/Paare/Kategorie) and a seating-constraint engine
+  ("Onkel X darf nicht neben Tante Y sitzen"). Drives product direction,
+  Carlos implements. (2026-06-23, inferred from session; expanded
+  2026-06-28)
 - **JCyberKiller** — Carlos's best friend. Dev collaborator; invited into a
   Firebase dev-Q&A Telegram group where Carlos and he work on feierlich /
   JC Development questions. Carlos currently fronts JCyberKiller's Claude
