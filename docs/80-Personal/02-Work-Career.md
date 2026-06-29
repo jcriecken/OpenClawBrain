@@ -36,13 +36,14 @@ updated: 2026-05-27
   target: Google Firebase. (2026-06-20, told me directly)
 - ~~Current state: v0.1.0 MVP shell live, focus on R1-E1-S1. Agent role:
   read-only observer — scans board daily, reports to Telegram.~~ (2026-06-20)
-  **Superseded 2026-06-28:** R1–R3 are complete. Findings F-001 through F-012
+  **Superseded 2026-06-28:** R1–R3 are complete. Findings F-001 through F-013
   shipped (auto-assign 3 modes, Excel/CSV import, manual guest entry,
   3-mode drag-sync selector Einzel/Paare/Kategorie, demo-data deletion,
-  login race-condition fix). Agent role is now active implementer — builds
+  login race-condition fix with signInWithRedirect mobile fallback). Version
+  now v1.1.1 (was v1.0.0). Agent role is now active implementer — builds
   features, merges to master, fixes production bugs. Backlog: F-011
-  constraint engine ("Onkel X ≠ Tante Y" seating rules). (2026-06-28,
-  inferred from session)
+  constraint engine ("Onkel X ≠ Tante Y" seating rules).
+  (2026-06-28, superseded 2026-06-29, inferred from session)
 - **Side project (backlog):** Hackenheld — multi-tenant Next.js platform with
   subdomain-based routing, Firestore, and admin dashboard. Has a full M0-M11
   implementation roadmap; currently shelved while feierlich.app is active.
