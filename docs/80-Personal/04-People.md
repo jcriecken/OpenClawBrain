@@ -21,17 +21,17 @@ updated: 2026-05-27
 - **Monika** — Carlos's partner. Mentioned in context of a Telegram group
   "DEV Carlos and Monika" for morning briefings on his projects. (2026-06-20,
   inferred from session)
-- **Monika (MoMi)** — goes by "MoMi" in app-testing contexts. Actively tests
-  the feierlich app and provides detailed product feedback: specified
-  guest-list import fields (Vorname, Nachname, Party, Kategorie A/B,
-  Diätanforderungen, Kind) and the elegant "Party" column concept for
-  auto-linking couples/groups at seating. Engaged co-stakeholder in the
-  product, not just a passive tester. Thinks in UX flows — e.g. insisted
-  both import AND manual guest entry must work; requested a drag-sync
-  toggle (Einzel/Paare/Kategorie) and a seating-constraint engine
-  ("Onkel X darf nicht neben Tante Y sitzen"). Drives product direction,
-  Carlos implements. (2026-06-23, inferred from session; expanded
-  2026-06-28)
+- **Monika (MoMi)** — Carlos's partner / fiancée. Goes by "MoMi" in
+  app-testing contexts. Actively co-planning their own wedding (110 guests)
+  and uses feierlich.app to build the seating plan — tested it herself and
+  called it "die beste Sitzplan-App die es gibt". Provides detailed UX
+  feedback: mobile layout, drag-and-drop edge cases, discoverability of the
+  couples toggle. Drives product direction; Carlos (PO) + Jan (dev) implement.
+  Specified guest-list fields (Vorname, Nachname, Party, Kategorie A/B,
+  Diätanforderungen, Kind), the "Party" column concept, drag-sync toggle
+  (Einzel/Paare/Kategorie), and seating-constraint engine. (2026-06-23,
+  inferred; expanded 2026-06-28, 2026-07-01 — wedding confirmed by 110-guest
+  reference and direct usage)
 - **JCyberKiller** — Carlos's best friend. Dev collaborator; invited into a
   Firebase dev-Q&A Telegram group where Carlos and he work on feierlich /
   JC Development questions. Carlos currently fronts JCyberKiller's Claude

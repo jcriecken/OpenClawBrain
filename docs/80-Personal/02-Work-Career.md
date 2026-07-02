@@ -40,9 +40,15 @@ updated: 2026-05-27
   shipped (auto-assign 3 modes, Excel/CSV import, manual guest entry,
   3-mode drag-sync selector Einzel/Paare/Kategorie, demo-data deletion,
   login race-condition fix with signInWithRedirect mobile fallback). Version
-  now v1.1.1 (was v1.0.0). Agent role is now active implementer — builds
-  features, merges to master, fixes production bugs. Backlog: F-011
-  constraint engine ("Onkel X ≠ Tante Y" seating rules).
+- **Agent role on feierlich (current, 2026-07-01):** PO-only — **no code changes
+  whatsoever.** Explicit instruction: "Merk dir das auch für die Zukunft. Du
+  machst nur backlog kein coding mehr." Agent maintains `docs/BACKLOG.md`,
+  `docs/PROGRESS.md`, `RELEASES.md` and pushes to `main`. Code work is done by
+  Jan (Claude Code CLI / Opus) or Cline+Ollama on a branch. `main` is source
+  of truth; local working changes are ignored. (2026-07-01, told me directly)
+- ~~Agent role is now active implementer — builds features, merges to master,
+  fixes production bugs.~~ (2026-06-28) **Superseded 2026-07-01** — Carlos
+  removed the agent from code entirely; PO/backlog-only now.
   (2026-06-28, superseded 2026-06-29, inferred from session)
 - **Side project (backlog):** Hackenheld — multi-tenant Next.js platform with
   subdomain-based routing, Firestore, and admin dashboard. Has a full M0-M11

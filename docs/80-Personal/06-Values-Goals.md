@@ -36,6 +36,17 @@ updated: 2026-05-26
   models). Values speed and using the newest model. (2026-06-20, told me
   directly)
 
+- **feierlich monetization (early thinking, 2026-07-01):** Considering a
+  premium tier — either ~€5/month or a one-time upgrade €9-15. Leaning toward
+  one-time because wedding apps are short-lived. Candidate premium features:
+  share-with-partner / collaborative editing, version history + manual
+  saves, Excel/Word/PDF export, multiple events, unlimited guests (free tier
+  capped, maybe 50 — but notes German weddings avg 60-100, so the cap needs
+  testing), CSV/Excel guest import, print-optimized layout. Aware some
+  features (CSV import, version history, PDF export) are already built or
+  planned — won't paywall existing features. Draft captured in
+  `RELEASES.md`. (2026-07-01, told me directly)
+
 ## To learn
 
 - What does "becoming smarter" actually mean to him — career? craft?

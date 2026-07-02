@@ -16,7 +16,10 @@ updated: 2026-05-26
 - **Daily weather briefing:** Receives Beuel weather forecast via Telegram every
   morning at 08:20 Europe/Berlin. (2026-05-27, told me directly)
 - **Active project rhythm:** While working on feierlich.app, expects a progress
-  check every 45 minutes and a morning briefing sent to the Telegram group
+  digest in the Telegram group. (2026-06-20)
+- **Daily digest format (2026-07-01):** Reduced to a minimal 5-line format —
+  status line, focus, yesterday's highlight, link. No feature lists, no fluff.
+  (2026-07-01, told me directly)
   "DEV Carlos and Monika". (2026-06-20, told me directly)
 - **Weekly motivation/accountability check with JCyberKiller:** Every Monday
   09:00, a cron checks the git logs of feierlich + jc-development. If commits
