@@ -32,8 +32,10 @@ updated: 2026-06-14
 - **Dev tool:** Uses Claude Code CLI with Opus 4.7 as default model for coding
   tasks. (2026-05-27, told me directly)
 - **Vehicle:** Ford Fiesta (Typ JH1, Variant A9JA1), grey, 5-door hatchback.
-  EZ 26.06.2008, VIN `WF0HXXGAJH8K58112`, license plate `RE-GK 5009`.
-  1.2L petrol (E10), 51 kW (~69 PS), manual 5-speed.
+  EZ 26.06.2008, VIN `WF0HXXGAJH8K58112`. Ummeldung to Bonn ~06.07.2026.
+  Current license plate: `BN JC1015` (was `RE-GK 5009` under previous owner).
+  1.3L petrol (E10), 51 kW (~69 PS), manual 5-speed. **Steuerkette**
+  (timing chain, confirmed by Carlos 2026-07-06).
   Bought 30.05.2026 from Lutz & Gudrun Kühnel (Oer-Erkenschwick) for 3.000 €.
   Mileage at purchase: 36.301 km. 1 owner (seller). TÜV clean through
   06.2027 (passed re-inspection 14.07.2025 after brake/light repairs).
@@ -41,6 +43,14 @@ updated: 2026-06-14
   Includes 2 keys, winter + summer tyres, battery charger. (2026-06-14)
 - **Vehicle insurance provider:** Provinzial (HP + VK). Carlos coordinates
   this with his father (Papa). (2026-06-18, told me directly)
+- **DIY maintenance project (planned 2026-07):** Carlos researched and ordered
+  a full tool + parts kit (~540 € in tools/materials) for a major service on
+  the Fiesta. Scope: gearbox seal (Simmerring) replacement + Getriebeöl
+  change (Castrol Transmax 75W-90, ~2.3L), motor oil + filter (Liqui Moly
+  5W-30, 4.35L), air + cabin filter, seat rail thread re-cut (M-Gewindebohrer),
+  underbody wax (Dinitrol 4941). Gearbox is iB5 manual. **Simmerring not yet
+  ordered as of 2026-07-06** — critical path item. Full task list with torque
+  specs (Achsmutter ~230-250 Nm) saved in session. (2026-07-06, told me directly)
 - **Local AI inference stack:** Ollama running on the Hermes box at
   `192.168.0.147:11434`. Models available (as of 2026-06-24):
   - `qwen2.5-coder:7b` (~4.7 GB, coding)
@@ -85,6 +95,83 @@ updated: 2026-06-14
   tracking. Didn't know his electricity €/kWh rate offhand (€0.35/kWh
   placeholder used, adjustable later). (2026-07-05, told me directly)
 
+## Workshop & tool inventory
+
+Inventory maintained by Jarvis from photos/listings Carlos provides. Last
+updated: 2026-07-06. Items Carlos owns — NOT the Fiesta-project purchase
+(that's tracked separately). If Carlos mentions a tool, check here first.
+
+### Power tools
+
+- **Parkside Akku-Schlagbohrschrauber PSBSA 20-Li B2** (20V, Schnellspannbohrfutter)
+  + 2× X20V-Team Akku + 2× Ladegerät. (2026-07-06)
+- **Preciva 8786D 2-in-1 SMD-Rework-Station** (Heißluft + Lötkolben). (2026-07-06)
+- **Parkside Akku-Gerät mit Laser Klasse 2** (pistolenförmig, vermutl.
+  IR-Thermometer). (2026-07-06)
+- **Bambu Lab P1S 3D-Drucker** + Bambu Lab AMS (4 Filament-Slots). (2026-07-06)
+
+### Measuring & testing
+
+- **Kaiweets KM601s Digital-Multimeter** (True RMS, 10000 Counts, Auto-Range)
+  + Typ-K-Temperaturfühler. (2026-07-06)
+- **MixcMax digitaler Messschieber** (150mm, LCD) — 2× vorhanden. (2026-07-06)
+- Spannungsprüfer / Phasenprüfer. (2026-07-06)
+- Wasserwaage (klein, rot). (2026-07-06)
+- Zollstock (Holz, "Bonn-Tannenbusch"). (2026-07-06)
+
+### Wrenches & drivers
+
+- **Ratsche / Knarre** (1/4"-Antrieb, umschaltbar) + Stecknüsse,
+  Verlängerungen, Adapter. (2026-07-06)
+- **Maul-/Gabelschlüssel** (Chrom-Vanadium, DIN 3110, u.a. 13mm, 19mm) —
+  groß + kleiner Satz. (2026-07-06)
+- **Innensechskantschlüssel-Satz** (oraner Halter) + lose Inbus
+  (Kugelkopf, schwarz) + lange Inbus. (2026-07-06)
+- Schraubendreher (rot + gelb). (2026-07-06)
+- **Bit-Sets:** Parkside Etui (~32-tlg.), Bit-Box, Sortiments-Kassette. (2026-07-06)
+- **Präzisions-Schraubendreher-Set** (blaue Falttasche "Mobile phone repair
+  tools"): Alu-Handgriff, 6 Bit-Leisten (Torx/Security, PH, PZ, Hex,
+  Pentalobe, Tri-Point), magnetische Schraubenmatte, Spudger, Picks. (2026-07-06)
+
+### Pliers & cutters
+
+- Kombizange, Seitenschneider, Kneifzange (alle rote Griffe). (2026-07-06)
+- Wasserpumpenzange (schwarz). (2026-07-06)
+- 2× Parkside-Zangen (rot/schwarz). (2026-07-06)
+- Cuttermesser (Parkside). (2026-07-06)
+- Kleine Säge (gelber Griff, PUK-Säge). (2026-07-06)
+
+### Striking, clamping, safety
+
+- Schlosserhammer (Prägung "S+K"). (2026-07-06)
+- Rote Zwinge. (2026-07-06)
+- Schutzbrille (blau). (2026-07-06)
+- "Dritte Hand" (Schwanenhals, Krokodilklemmen, Acryl-Schutzscheibe). (2026-07-06)
+
+### Drilling
+
+- Bosch Bohrer-Set (15-tlg., grüne Kassette). (2026-07-06)
+- kwb Bohrer-Set (rote Kassette). (2026-07-06)
+
+### Storage systems
+
+- Einhell E-Case Systemkoffer-Turm (3 Koffer auf Rollen). (2026-07-06)
+- Handwerkzeug-Einsatz im PXL-Koffer (3 Fächer). (2026-07-06)
+- Parkside Akkuschrauber-Koffer. (2026-07-06)
+- Werkzeugkasten mit Deckelfach. (2026-07-06)
+- Sortimentsboxen & Schubladen-Organizer (grün/transparent). (2026-07-06)
+
+### Consumables on hand
+
+- fischer Dübel (2 Pack.), Dichtungs-Sortiment (Workzone), K3000 Schleifpapier,
+  tesa Klebeband (2 Rollen), WD-40 Specialist Optik-Spray, Schraubhaken/
+  Ösenschrauben/Metalldübel, 4 Filament-Spulen (im AMS). (2026-07-06)
+
+### Known gaps (for car DIY)
+
+- Kein Drehmomentschlüssel im Bestand → kommt mit Proxxon-Satz (bestellt).
+- Kein Felgenkreuz → für Radwechsel empfohlen nachzubestellen.
+
 ## To learn
 
 - Daily driver: laptop or desktop? Brand/model?
@@ -93,5 +180,6 @@ updated: 2026-06-14
 - TV / display he watches Plex on (relevant to direct-play vs transcode
   decisions for Lean Stream)?
 - Audio setup (headphones for coding, speakers for music)?
-- 3D printer make/model (he has a 3D-print portfolio idea).
+- ~~3D printer make/model (he has a 3D-print portfolio idea).~~
+  → Answered 2026-07-06: Bambu Lab P1S + AMS (see Workshop inventory above).
 - Any other smart-home devices beyond Hue / HA-tracked?
