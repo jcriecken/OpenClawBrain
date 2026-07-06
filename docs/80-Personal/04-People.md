@@ -41,6 +41,10 @@ updated: 2026-05-27
   group chat — Carlos actively looks out for his friends' wellbeing.
   (2026-06-23, inferred from session)
 
+- **Tobi** — reported bugs on feierlich.app via a screenshot (2026-07-05).
+  Likely a tester / early user in Carlos's circle; exact relationship TBD.
+  (2026-07-05, inferred from session)
+
 ## To learn
 
 - Siblings, children, extended family?

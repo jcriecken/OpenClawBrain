@@ -67,6 +67,23 @@ updated: 2026-06-14
   set up. (2026-06-26, told me directly)
 - **Web automation:** Uses `browser-use` via Hermes for web tasks and
   data extraction. (2026-06-20, inferred from session)
+- **LG OLED TV (primary):** OLED65C43LA — the real/main living-room TV.
+  An older OLED55CX9LA also appears in HA entities but is a legacy/duplicate
+  entry flagged for cleanup. Has an associated Plex client. (2026-07-05,
+  inferred from session)
+- **Home Assistant entity count:** 272 entities. Two rooms are both offices
+  (renamed Office 1 / Office 2; previously mislabeled internally as
+  "Bad"/"Aussen"). (2026-07-05, inferred from session)
+- **Network topology note:** The Hermes terminal shares the LAN with HA
+  (`192.168.0.35`) — Carlos confirmed "you are in the same network". However
+  the `browser-use` tool is cloud-based (Browserbase) and cannot reach LAN
+  addresses; only the `ha_*` gateway tools (list_entities, get_state,
+  call_service) reach HA, via a preconfigured API token. (2026-07-05,
+  told me directly)
+- **HA dashboard preferences:** Wants tabs split by type — Power / Climate /
+  Devices. 7-day default view for graphs. Full Energy Dashboard with cost
+  tracking. Didn't know his electricity €/kWh rate offhand (€0.35/kWh
+  placeholder used, adjustable later). (2026-07-05, told me directly)
 
 ## To learn
 
