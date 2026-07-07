@@ -47,6 +47,13 @@ updated: 2026-05-26
   planned — won't paywall existing features. Draft captured in
   `RELEASES.md`. (2026-07-01, told me directly)
 
+- **feierlich beta release philosophy (2026-07-06):** Chose to release the
+  beta "kostenlos — fürs Karma und für Feedback" (free, for karma and
+  feedback). Prioritises goodwill and real-user testing over immediate
+  revenue for feierlich. Consistent with the earlier one-time-upgrade
+  monetization lean — not chasing recurring revenue aggressively.
+  (2026-07-06, told me directly)
+
 ## To learn
 
 - What does "becoming smarter" actually mean to him — career? craft?

@@ -53,6 +53,10 @@ updated: 2026-06-02
   `09-Tech-Devices.md`
   **Partial signal 2026-07-05:** Primary TV is an LG OLED65C43LA with an
   associated Plex client. Other clients still unknown.
+- [ ] What's sister "M"'s full name? (Only initial used in the origin story.)
+  → `04-People.md`
+- [ ] How many siblings does Carlos have? (Sister M + brother Jan confirmed;
+  any others?) → `04-People.md`
 - [ ] Who is Tobi (the feierlich bug-reporter)? Friend / family / wedding
   guest / fellow dev? → `04-People.md`
 - [ ] GPU model in your local workstation (the 10GB VRAM one) → `09-Tech-Devices.md`

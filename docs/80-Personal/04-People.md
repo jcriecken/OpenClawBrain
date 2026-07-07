@@ -32,10 +32,15 @@ updated: 2026-05-27
   (Einzel/Paare/Kategorie), and seating-constraint engine. (2026-06-23,
   inferred; expanded 2026-06-28, 2026-07-01 — wedding confirmed by 110-guest
   reference and direct usage)
-- **JCyberKiller** — Carlos's best friend. Dev collaborator; invited into a
-  Firebase dev-Q&A Telegram group where Carlos and he work on feierlich /
-  JC Development questions. Carlos currently fronts JCyberKiller's Claude
-  Pro share (JCyberKiller reimburses monthly). (2026-06-21, told me directly)
+- **JCyberKiller (Jan)** — Carlos's **brother** (not best friend — corrected
+  2026-07-06). Dev collaborator; builds feierlich.app features with Claude
+  Code / Opus. Invited into a Firebase dev-Q&A Telegram group where Carlos
+  and he work on feierlich / JC Development questions. Carlos currently
+  fronts JCyberKiller's Claude Pro share (JCyberKiller reimburses monthly).
+  ~~Previously logged as "best friend" — superseded 2026-07-06 after Carlos
+  said "bitte keinen Verlobungsring für Jan — der ist mein Bruder."~~
+  (2026-06-21, told me directly; relationship corrected 2026-07-06, told me
+  directly)
 - **JCyberKiller (personal note):** When JCyberKiller was having a down day,
   Carlos proactively asked Jarvis to send warm, supportive words to the
   group chat — Carlos actively looks out for his friends' wellbeing.
@@ -44,6 +49,15 @@ updated: 2026-05-27
 - **Tobi** — reported bugs on feierlich.app via a screenshot (2026-07-05).
   Likely a tester / early user in Carlos's circle; exact relationship TBD.
   (2026-07-05, inferred from session)
+
+- **Sister "M"** — Carlos's sister. Co-founder of feierlich.ai. Described in
+  the marketing origin story as the strategic, structured one ("macht Dinge
+  gerne richtig — Strategie, Struktur, und für jedes Problem eine Tabelle").
+  She married and her wedding-planning pain (Excel/PowerPoint/Word seating
+  plans in 8 versions, vendor comparison spreadsheets) was the original
+  inspiration for feierlich. She called her brother to build it. Full name
+  unknown — referred to only as "M" in the origin story. (2026-07-06, told
+  me directly via origin-story text)
 
 ## To learn
 
