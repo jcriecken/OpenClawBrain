@@ -18,9 +18,14 @@ updated: 2026-05-26
 - **Hobby:** Sim racing / gaming. Has a dedicated setup with steering wheel,
   pedals, and RGB lighting in a room with dark walls/ceiling. (2026-05-27,
   inferred from session)
-- **Vehicle ownership:** Recently bought a used Ford Fiesta Mk7 (1.25 Duratec,
-  60 PS, 2008, 36.000 km) for 3.000 €. Aware of mechanical issues (gearbox
-  seal leak). (2026-06-05, told me directly)
+- **Vehicle ownership:** Bought a used Ford Fiesta Mk7 (1.3L Duratec, 69 PS,
+  2008, 36.300 km) for 3.000 € on 30.05.2026. Aware of mechanical issues
+  (gearbox seal leak — being repaired DIY). (2026-06-05 / corrected 2026-07-08)
+- **Car maintenance as hobby:** Carlos does his own car maintenance. Ordered
+  ~680 € in tools and parts for a DIY gearbox seal replacement + full service
+  on the Fiesta. Has a well-equipped workshop (see `09-Tech-Devices.md` →
+  Workshop inventory). Researches parts and procedures thoroughly before
+  starting. (2026-07-08, told me directly)
 
 ## To learn
 

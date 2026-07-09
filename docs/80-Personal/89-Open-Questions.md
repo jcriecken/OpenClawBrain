@@ -32,10 +32,10 @@ updated: 2026-06-02
   original audio with English subtitles? → `05-Tastes.md`
 - [ ] Do you binge animated series regularly, or are South Park / Rick and
   Morty exceptions? → `05-Tastes.md`
-- [ ] What's the exact motor code of your Fiesta 1.25 60PS? (STJA vs SNJA — this determines if it has a timing belt or chain.) → `09-Tech-Devices.md`
+  **Answered 2026-07-08:** Motor code is A9JA, 1.3L (1,299 cm³), 69 PS, with Steuerkette (timing chain). Not 1.25L/60PS as previously assumed. Logged in `09-Tech-Devices.md`.
 - [ ] Any other known mechanical issues on the Fiesta beyond the gearbox leak? → `09-Tech-Devices.md`
 - [ ] Is the Fiesta's Provinzial insurance policy under your name or your father's? → `08-Finance-Logistics.md`
-- [ ] Do you do car maintenance yourself or have a trusted mechanic? → `03-Health-Lifestyle.md`
+  **Answered 2026-07-08:** Carlos does car maintenance himself — ordered ~680€ in tools and parts for a DIY gearbox seal + full service on the Fiesta. Logged in `09-Tech-Devices.md` → `03-Health-Lifestyle.md`.
 
 ## Low priority (ambient — let them surface naturally)
 

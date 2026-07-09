@@ -36,6 +36,9 @@ updated: 2026-06-14
   Current license plate: `BN JC1015` (was `RE-GK 5009` under previous owner).
   1.3L petrol (E10), 51 kW (~69 PS), manual 5-speed. **Steuerkette**
   (timing chain, confirmed by Carlos 2026-07-06).
+  Version: 5BDBKC. EG-Typgenehmigung: e1\*98/14\*0191\*18 (01.08.2007).
+  Emissions: EURO 4. Power: 51 kW @ 5,600 rpm. Tire size: 175/65 R14.
+  (2026-07-08, told me directly)
   Bought 30.05.2026 from Lutz & Gudrun Kühnel (Oer-Erkenschwick) for 3.000 €.
   Mileage at purchase: 36.301 km. 1 owner (seller). TÜV clean through
   06.2027 (passed re-inspection 14.07.2025 after brake/light repairs).
@@ -43,14 +46,18 @@ updated: 2026-06-14
   Includes 2 keys, winter + summer tyres, battery charger. (2026-06-14)
 - **Vehicle insurance provider:** Provinzial (HP + VK). Carlos coordinates
   this with his father (Papa). (2026-06-18, told me directly)
-- **DIY maintenance project (planned 2026-07):** Carlos researched and ordered
-  a full tool + parts kit (~540 € in tools/materials) for a major service on
-  the Fiesta. Scope: gearbox seal (Simmerring) replacement + Getriebeöl
+- **DIY maintenance project (active 2026-07):** Carlos researched and ordered
+  a full tool + parts kit for a major service on the Fiesta. Total: ~680 €
+  (Werkzeug ~439 €, Verbrauchsmaterial ~171 €, Ersatzteile ~70 €).
+  Scope: gearbox seal (Simmerring) replacement + Getriebeöl
   change (Castrol Transmax 75W-90, ~2.3L), motor oil + filter (Liqui Moly
   5W-30, 4.35L), air + cabin filter, seat rail thread re-cut (M-Gewindebohrer),
-  underbody wax (Dinitrol 4941). Gearbox is iB5 manual. **Simmerring not yet
-  ordered as of 2026-07-06** — critical path item. Full task list with torque
-  specs (Achsmutter ~230-250 Nm) saved in session. (2026-07-06, told me directly)
+  underbody wax (Dinitrol 4941). Gearbox is iB5 manual. ~~Simmerring not yet
+  ordered as of 2026-07-06~~ **Simmerring ordered 2026-07-08** — Carlos
+  confirmed "habe nun alles bestellt". Full inventory tracked at
+  `~/.openclaw/workspace/fiesta-inventory.md` (21 items, categorized). Full
+  task list with torque specs (Achsmutter ~230-250 Nm) saved in session.
+  (2026-07-06 / updated 2026-07-08, told me directly)
 - **Local AI inference stack:** Ollama running on the Hermes box at
   `192.168.0.147:11434`. Models available (as of 2026-06-24):
   - `qwen2.5-coder:7b` (~4.7 GB, coding)
