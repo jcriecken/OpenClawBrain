@@ -57,7 +57,12 @@ updated: 2026-06-14
   confirmed "habe nun alles bestellt". Full inventory tracked at
   `~/.openclaw/workspace/fiesta-inventory.md` (21 items, categorized). Full
   task list with torque specs (Achsmutter ~230-250 Nm) saved in session.
-  (2026-07-06 / updated 2026-07-08, told me directly)
+  Facility docs now on hand: Haynes online for his Fiesta
+  (`https://mole.haynes.com/manualOverview?chapterId=c_2135&sectionId=s_50080`)
+  and a local "So wird's gemacht" Band 143 PDF (Fiesta 3/02–8/08). Claude Code
+  is currently building the repair To-Do app in the JC-development codebase;
+  Jarvis stays in product/context support, no coding. Known tool gap: no
+  recorded spark-plug socket. (2026-07-06 / updated 2026-07-10, told me directly)
 - **Local AI inference stack:** Ollama running on the Hermes box at
   `192.168.0.147:11434`. Models available (as of 2026-06-24):
   - `qwen2.5-coder:7b` (~4.7 GB, coding)
