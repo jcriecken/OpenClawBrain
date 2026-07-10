@@ -60,6 +60,10 @@ updated: 2026-05-27
   feierlich with MoMi on Saturday evening 2026-06-27 (~21:27). Weekend
   evening dev sessions appear normal for him. (2026-06-28, inferred from
   session)
+- **Programming since childhood.** In the feierlich.ai origin story he
+  authored, describes himself ("C") as "programmiert seit er denken kann"
+  — has been programming as long as he can remember. (2026-07-09, told me
+  directly via origin-story text)
 - **Mindset:** Wants AI assistance that operates like a Product Owner —
   proactive technical and aesthetic suggestions, not pure execution.
   (2026-05-26)
