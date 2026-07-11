@@ -59,10 +59,21 @@ updated: 2026-06-14
   task list with torque specs (Achsmutter ~230-250 Nm) saved in session.
   Facility docs now on hand: Haynes online for his Fiesta
   (`https://mole.haynes.com/manualOverview?chapterId=c_2135&sectionId=s_50080`)
-  and a local "So wird's gemacht" Band 143 PDF (Fiesta 3/02–8/08). Claude Code
+  — note: behind a paid login wall, cannot be bulk-extracted offline like
+  the Ford manual. Local "So wird's gemacht" Band 143 PDF (Fiesta 3/02–8/08).
+  **Ford owner's manual fully extracted** (2026-07-10): 147 chapters from
+  fordservicecontent.com, ~19MB, stored in jc-development repo at
+  `data/garage/fiesta/manual/ford-owner-manual-gbr/` (Markdown + index,
+  no raw HTML). Verified: 4.35L oil + WSS-M2C913-B spec present. Claude Code
   is currently building the repair To-Do app in the JC-development codebase;
   Jarvis stays in product/context support, no coding. Known tool gap: no
   recorded spark-plug socket. (2026-07-06 / updated 2026-07-10, told me directly)
+- **Fiesta repair scope — right-hand driveshaft:** The specific repair is on
+  the **right-hand (Beifahrerseite / passenger side)** driveshaft — the
+  longer shaft with Zwischenlager at the engine block. The seal being
+  replaced is the **Getriebeausgangs-Dichtring** (Wellendichtring am
+  Differential), not the Radgelenk-Manschette. Confirmed by Carlos
+  2026-07-10. (2026-07-10, told me directly)
 - **Local AI inference stack:** Ollama running on the Hermes box at
   `192.168.0.147:11434`. Models available (as of 2026-06-24):
   - `qwen2.5-coder:7b` (~4.7 GB, coding)
