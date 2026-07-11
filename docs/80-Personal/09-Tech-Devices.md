@@ -68,6 +68,9 @@ updated: 2026-06-14
   is currently building the repair To-Do app in the JC-development codebase;
   Jarvis stays in product/context support, no coding. Known tool gap: no
   recorded spark-plug socket. (2026-07-06 / updated 2026-07-10, told me directly)
+  **Service Tag 1 completed 2026-07-11:** Oil + filter, air filter, cabin
+  filter, driver seat out + rail rust treatment (Dinitrol 4941), interior
+  vacuumed. Car on stands for Tag 2 (driveshaft seal). (2026-07-11)
 - **Fiesta repair scope — right-hand driveshaft:** The specific repair is on
   the **right-hand (Beifahrerseite / passenger side)** driveshaft — the
   longer shaft with Zwischenlager at the engine block. The seal being
