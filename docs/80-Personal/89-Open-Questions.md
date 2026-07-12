@@ -73,6 +73,11 @@ updated: 2026-06-02
 - [ ] Deployment target for feierlich.app (Google Firebase? Vercel?) → `02-Work-Career.md`
   **Answered 2026-06-20:** Google Firebase. Logged in `02-Work-Career.md`.
 
+- [ ] Has your model preference shifted from GLM 5.2? You tested
+  grok-4.5, claude-fable-5, and gpt-5.6-sol via Nous Portal on 2026-07-11.
+  Are you settling on a new primary, or just experimenting? →
+  `06-Values-Goals.md`
+
 ---
 
 When a question is answered, move the answer into the right KB file and
