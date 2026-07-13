@@ -54,7 +54,16 @@ updated: 2026-06-14
   5W-30, 4.35L), air + cabin filter, seat rail thread re-cut (M-Gewindebohrer),
   underbody wax (Dinitrol 4941). Gearbox is iB5 manual. ~~Simmerring not yet
   ordered as of 2026-07-06~~ **Simmerring ordered 2026-07-08** — Carlos
-  confirmed "habe nun alles bestellt". Full inventory tracked at
+ confirmed "habe nun alles bestellt". ~~Initial purchase was the wrong
+ part~~ (2026-07-12: Carlos discovered he'd bought the wrong
+ Wellendichtring — FEBEST 95FAS-35580909X, too large at Ø58.2mm,
+ metal-cased, for Ford Ranger not Fiesta). **Correct part identified
+ 2026-07-12:** Corteco 12019597B — Getriebe-Simmerring for IB5, OD 55mm,
+ ID 40mm, 8mm, with Staubschutzlippe, ACM material. €6.29. OE
+ equivalent: Ford 1805715. Confirmed correct by all specs (IB5, 55×40×8).
+ Carlos was told "Kaufen" but did not explicitly confirm purchase in
+ session. (2026-07-12, told me directly)
+ Full inventory tracked at
   `~/.openclaw/workspace/fiesta-inventory.md` (21 items, categorized). Full
   task list with torque specs (Achsmutter ~230-250 Nm) saved in session.
   Facility docs now on hand: Haynes online for his Fiesta
@@ -71,6 +80,13 @@ updated: 2026-06-14
   **Service Tag 1 completed 2026-07-11:** Oil + filter, air filter, cabin
   filter, driver seat out + rail rust treatment (Dinitrol 4941), interior
   vacuumed. Car on stands for Tag 2 (driveshaft seal). (2026-07-11)
+- **Sommerreifen-Komplettsets search (2026-07-12):** Carlos is looking for
+  complete summer-tyre sets (tyres pre-mounted on wheels) for the Fiesta.
+  Budget: max ~250€ per set. Must be ABE or OEM — no Eintragung needed.
+  Compatible specs he confirmed: tyre sizes 175/65 R14, 185/55 R15,
+  195/45 R16; Lochkreis 4×108, Mittenloch 63.4mm, ET 37–47.5. The
+  `fiesta-parts-finder` cron was reconfigured to search eBay Kleinanzeigen
+  + eBay.de daily at 14:00 for these. (2026-07-12, told me directly)
 - **Fiesta repair scope — right-hand driveshaft:** The specific repair is on
   the **right-hand (Beifahrerseite / passenger side)** driveshaft — the
   longer shaft with Zwischenlager at the engine block. The seal being
