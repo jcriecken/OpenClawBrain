@@ -27,13 +27,23 @@ updated: 2026-05-27
 - **Freelance / side work:** Static HTML for real estate projects. Family
   projects (`DeChava`, `Villa Ines`) are hands-off for the agent but Carlos
   (as Jan / jcriecken) is the developer and maintainer. (2026-05-27)
-- **Side project (active, top priority):** feierlich.app — KI-Hochzeitsplaner
+- ~~**Side project (active, top priority):** feierlich.app — KI-Hochzeitsplaner
   (AI wedding planner for the German market). MVP = visual seating plan editor
   using @dnd-kit canvas. Stack: Next.js 16 App Router + Firebase (multi-tenant
   Firestore, Cloud Run SSR europe-west1), Cormorant/DM Sans typography. Live
   at feierlich.app. Repo: `/home/skilla/DEV/feierlich/`. Roadmap: R1
   Persistenz/CRUD → R2 Bearbeitung → R3 Collaboration → v1.0.0. Deployment
-  target: Google Firebase. (2026-06-20, told me directly)
+  target: Google Firebase. (2026-06-20, told me directly)~~
+  **Superseded 2026-07-16 (domain package already live since 12.07):**
+  **feierlich.ai** is the canonical brand domain. Registered via
+  **Squarespace Domains** (`.ai` unsupported on Google Cloud Domains),
+  ~72 €/yr, 2-year minimum term. DNS in Google Cloud DNS zone `feierlich-ai`,
+  custom domain on Firebase Hosting site `feierlich`, `authDomain=feierlich.ai`.
+  `feierlich.app` remains live as alias (no 301 yet — same Hosting site loop
+  risk). Live at https://feierlich.ai (+ app alias). Repo unchanged:
+  `/home/skilla/DEV/feierlich/`. R1–R3 shipping history still stands; product
+  is past POC and on v2.x Wedding-OS track. (2026-07-16, told me directly /
+  confirmed against CLAUDE.md + live HTTP 200)
 - ~~Current state: v0.1.0 MVP shell live, focus on R1-E1-S1. Agent role:
   read-only observer — scans board daily, reports to Telegram.~~ (2026-06-20)
   **Superseded 2026-06-28:** R1–R3 are complete. Findings F-001 through F-013
@@ -74,5 +84,5 @@ updated: 2026-05-27
 - Industry focus — purely real-estate web work or broader client base?
 - Career history: how did he land at SAP at 18?
 - 1-year / 5-year ambition?
-- Will feierlich.app be monetised or internal-only?
+- Will feierlich.ai be monetised or internal-only?
 - What happened to JotGpt ( why archived)?

@@ -93,6 +93,7 @@ graph TB
 
 | Application | Domain | Stack | Status |
 | :--- | :--- | :--- | :--- |
+| **feierlich** | [`feierlich.ai`](https://feierlich.ai) (+ alias `.app`) | Next.js 16, Firebase Hosting + Cloud Run SSR | ✅ Live (top priority) |
 | **JC Development** | [`jc-development.com`](https://www.jc-development.com) | Next.js 16, Tailwind v4, Firebase | ✅ Live |
 | **Villa Ines** | [`villa-ines-mallorca.com`](https://villa-ines-mallorca.web.app) | HTML5, CSS3, Vanilla JS | ✅ Live |
 | **DeChava** | [`dechava.com`](https://dechava.com) | Static HTML/CSS | ✅ Live |

@@ -25,6 +25,7 @@ graph TB
     end
 
     subgraph WebApps["🌐 Live Web Applications"]
+        FEIER["<b>feierlich.ai</b><br/>KI-Hochzeitsplaner<br/><i>Firebase Hosting + Cloud Run</i>"]
         JCD["<b>jc-development.com</b><br/>Next.js Dashboard<br/><i>Firebase Hosting</i>"]
         VILLA["<b>villa-ines-mallorca.com</b><br/>Static Site<br/><i>Firebase Hosting</i>"]
         DECHAVA["<b>dechava.com</b><br/>Static Site<br/><i>Firebase Hosting</i>"]
@@ -49,10 +50,12 @@ graph TB
     OWNER --> LocalApps
     OWNER --> Deprecated
 
+    FEIER --> FB
     JCD --> FB
     VILLA --> FB
     DECHAVA --> FB
     FB --> DNS
+    FEIER -.->|"Client SDK multi-tenant"| FS
     JCD -.->|"Client SDK"| FS
     DNS -.->|"MX Records"| GW
 ```
@@ -60,6 +63,26 @@ graph TB
 ---
 
 ## Project Registry
+
+### §0. feierlich.ai — KI-Hochzeitsplaner *(top priority)*
+
+| Field | Value |
+|:---|:---|
+| **Repository** | local `/home/skilla/DEV/feierlich/` (GitHub remote as used by Carlos/Jan) |
+| **Canonical domain** | [`feierlich.ai`](https://feierlich.ai) — **since 2026-07-12** |
+| **Alias** | [`feierlich.app`](https://feierlich.app) — remains live, **no 301 yet** (same Hosting site) |
+| **Registrar `.ai`** | Squarespace Domains (~72 €/yr, 2-year min; Cloud Domains does **not** support `.ai`) |
+| **Registrar `.app`** | Google Cloud Domains (Reseller Squarespace), ~14 $/yr |
+| **DNS** | Cloud DNS zones `feierlich-ai` + `feierlich-app` → A `199.36.158.100` + Hosting TXT |
+| **Hosting** | Firebase Hosting Web Frameworks → Cloud Run SSR (`europe-west1`), site `feierlich`, project `feierlich-01` |
+| **Auth** | Firebase Auth Google Sign-In; `authDomain=feierlich.ai` |
+| **Status** | ✅ Live (Wedding-OS track, board in repo `docs/PROGRESS.md`) |
+
+Agent role (since 2026-06-29 / 2026-07-01): **PO only** — backlog/findings/docs/push, **no application code**. Implementation by Jan (Claude Code / Opus). Deploy ops allowed: `firebase deploy --only hosting:feierlich --project feierlich-01 --force`.
+
+Canonical runbook: repo `CLAUDE.md` + Hermes skill `feierlich`.
+
+---
 
 ### §1. JC Development — Primary Dashboard
 
@@ -269,14 +292,17 @@ All live web applications share a unified infrastructure:
 graph TD
     Users((Users)) --> DNS["Google Cloud DNS"]
 
+    DNS -->|"feierlich.ai + .app"| FB0["Firebase Hosting + Cloud Run<br/><b>feierlich</b>"]
     DNS -->|"jc-development.com"| FB1["Firebase Hosting<br/><b>JC Development</b>"]
     DNS -->|"dechava.com"| FB2["Firebase Hosting<br/><b>DeChava</b>"]
     DNS -->|"villa-ines-mallorca.com<br/>+ 3 TLDs"| FB3["Firebase Hosting<br/><b>Villa Ines</b>"]
     DNS -->|"MX records"| GW["Google Workspace<br/>Email"]
 
-    FB1 -.->|"Client SDK"| FS[(Firestore)]
+    FB0 -.->|"Client SDK multi-tenant"| FS[(Firestore)]
+    FB1 -.->|"Client SDK"| FS
 
     style DNS fill:#4285F4,color:#fff,stroke:none
+    style FB0 fill:#FFCA28,color:#333,stroke:none
     style FB1 fill:#FFCA28,color:#333,stroke:none
     style FB2 fill:#FFCA28,color:#333,stroke:none
     style FB3 fill:#FFCA28,color:#333,stroke:none
@@ -286,11 +312,11 @@ graph TD
 
 | Service | Provider | Details |
 |:---|:---|:---|
-| **DNS** | Google Cloud DNS | Authoritative for all domains |
-| **Hosting** | Firebase Hosting | Edge CDN, all 3 live sites |
-| **Database** | Firestore | NoSQL, client-side SDK access (jc-development only) |
+| **DNS** | Google Cloud DNS | Authoritative for listed domains (incl. `feierlich-ai`, `feierlich-app`) |
+| **Hosting** | Firebase Hosting (+ Cloud Run SSR for feierlich) | Edge CDN / SSR for next apps |
+| **Database** | Firestore | NoSQL; jc-development + multi-tenant feierlich |
 | **Email** | Google Workspace | MX routing via Cloud DNS |
-| **Domain Registration** | AWS Route 53 | Registrar only (all DNS migrated to GCP) |
+| **Domain Registration** | Mixed | AWS Route 53 (legacy Villa Ines registrar); Cloud Domains (feierlich.app); **Squarespace Domains (feierlich.ai)** |
 
 > [!NOTE]
 > AWS infrastructure was fully migrated to GCP/Firebase in March 2026. AWS is retained **only as the domain registrar** for the Villa Ines domains. See the [Migration Log](https://github.com/jcriecken/documenationHub/blob/master/docs/90-Migration-Log.md) for details.

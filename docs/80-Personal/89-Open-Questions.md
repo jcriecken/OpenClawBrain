@@ -70,8 +70,11 @@ updated: 2026-06-02
   **Confirmed 2026-07-01:** Carlos and Monika are planning their own wedding
   (110 guests). feierlich.app was built partly to solve their own seating
   problem.
-- [ ] Deployment target for feierlich.app (Google Firebase? Vercel?) → `02-Work-Career.md`
-  **Answered 2026-06-20:** Google Firebase. Logged in `02-Work-Career.md`.
+- [x] Deployment target for feierlich.app (Google Firebase? Vercel?) → `02-Work-Career.md`
+  **Answered 2026-06-20:** Google Firebase Hosting → Cloud Run SSR.
+  **Domain update 2026-07-16:** canonical brand domain is **feierlich.ai**
+  (registered Squarespace, DNS Cloud DNS `feierlich-ai`); `feierlich.app`
+  remains live alias (no 301 yet).
 
 - [ ] Has your model preference shifted from GLM 5.2? You tested
   grok-4.5, claude-fable-5, and gpt-5.6-sol via Nous Portal on 2026-07-11.
