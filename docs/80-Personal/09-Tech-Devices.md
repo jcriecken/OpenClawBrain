@@ -33,17 +33,21 @@ updated: 2026-06-14
   tasks. (2026-05-27, told me directly)
 - **Vehicle:** Ford Fiesta (Typ JH1, Variant A9JA1), grey, 5-door hatchback.
   EZ 26.06.2008, VIN `WF0HXXGAJH8K58112`. Ummeldung to Bonn ~06.07.2026.
-  Current license plate: `BN JC1015` (was `RE-GK 5009` under previous owner).
-  1.3L petrol (E10), 51 kW (~69 PS), manual 5-speed. **Steuerkette**
+  Current license plate: `BN JC1015` (~~was `RE-GK 5009`~~ **corrected 2026-07-15 from Zulassungsbescheinigung Teil I photo: previous plate on that document was `RE-GK 3009`**; document no. RE-K-0-178/08-00207; previous holder Lutz Harald Kühnel, Oer-Erkenschwick).
+  1.3L petrol (E10), 51 kW (~69 PS), manual 5-speed (iB5). **Steuerkette**
   (timing chain, confirmed by Carlos 2026-07-06).
   Version: 5BDBKC. EG-Typgenehmigung: e1\*98/14\*0191\*18 (01.08.2007).
-  Emissions: EURO 4. Power: 51 kW @ 5,600 rpm. Tire size: 175/65 R14.
-  (2026-07-08, told me directly)
+  Emissions: EURO 4. Power: 51 kW @ 5,600 rpm.
+  **Feld 15 (Bereifung) on Schein: only `175/65 R14 77R` VA+HA** — no other sizes freigeschrieben; wider/16″ combos need ABE/Gutachten and/or Eintrag.
+  (2026-07-08 / 2026-07-15, told me directly + shared Schein photo)
   Bought 30.05.2026 from Lutz & Gudrun Kühnel (Oer-Erkenschwick) for 3.000 €.
   Mileage at purchase: 36.301 km. 1 owner (seller). TÜV clean through
   06.2027 (passed re-inspection 14.07.2025 after brake/light repairs).
   Insured (HP + VK) through 31.12.2026. Green card valid until 21.02.2027.
   Includes 2 keys, winter + summer tyres, battery charger. (2026-06-14)
+  As of 2026-07-15 Carlos shared a photo of Zulassungsbescheinigung Teil I
+  (no stored PDF/scan path beyond the chat image; key Schindaten now in this
+  file + `fiesta-inventory.md`). (2026-07-15, told me directly)
 - **Vehicle insurance provider:** Provinzial (HP + VK). Carlos coordinates
   this with his father (Papa). (2026-06-18, told me directly)
 - **DIY maintenance project (active 2026-07):** Carlos researched and ordered
@@ -80,13 +84,18 @@ updated: 2026-06-14
   **Service Tag 1 completed 2026-07-11:** Oil + filter, air filter, cabin
   filter, driver seat out + rail rust treatment (Dinitrol 4941), interior
   vacuumed. Car on stands for Tag 2 (driveshaft seal). (2026-07-11)
-- **Sommerreifen-Komplettsets search (2026-07-12):** Carlos is looking for
-  complete summer-tyre sets (tyres pre-mounted on wheels) for the Fiesta.
-  Budget: max ~250€ per set. Must be ABE or OEM — no Eintragung needed.
-  Compatible specs he confirmed: tyre sizes 175/65 R14, 185/55 R15,
-  195/45 R16; Lochkreis 4×108, Mittenloch 63.4mm, ET 37–47.5. The
-  `fiesta-parts-finder` cron was reconfigured to search eBay Kleinanzeigen
-  + eBay.de daily at 14:00 for these. (2026-07-12, told me directly)
+- ~~**Sommerreifen-Komplettsets search (2026-07-12):** Budget max ~250€;
+  Must be ABE or OEM — no Eintragung needed.~~ **Superseded 2026-07-15.**
+  New wheel/tyre preference prioritizes **sportiness**: **16″ with as-wide-as-
+  practical tyres**, preferred combo **195/45 R16** on **6.5–7 J × 16**,
+  Lochkreis **4×108**, MZ **63.4**, ET **~38–47.5**. Wants a **used complete
+  set** (Felgen + Reifen) with **good/not-too-old tyres**, **max ~400 €**.
+  Legal path OK either **with ABE/Gutachten** or he will **Anbauen +
+  Eintragen** (TÜV/DEKRA Änderungsabnahme) if needed. OEM Ford rims like
+  H1BC-1007-B1A (6.5×16 ET47.5, 4×108, from later Fiesta JA8) fit technically
+  but need Eintrag on his JH1 unless gutachtengedeckt. Still prioritizes NRW/
+  Bonn region. `fiesta-parts-finder` cron still relevant for daily eBay/
+  Kleinanzeigen search. (2026-07-12 / 2026-07-15, told me directly)
 - **Fiesta repair scope — right-hand driveshaft:** The specific repair is on
   the **right-hand (Beifahrerseite / passenger side)** driveshaft — the
   longer shaft with Zwischenlager at the engine block. The seal being
