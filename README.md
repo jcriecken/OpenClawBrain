@@ -1,3 +1,9 @@
+> [!WARNING]
+> **❄️ FROZEN 2026-07-17.** This knowledge base documented the OpenClaw era and is superseded by
+> **[JarvisVault](https://github.com/jcriecken/JarvisVault)** — an Obsidian vault at
+> `~/.openclaw/workspace/vault/` with Hermes-current docs. This repo remains for history only.
+> Do not update; new knowledge goes to the vault.
+
 <div align="center">
 
 # 🧠 OpenClaw Brain — Jarvis Instance
